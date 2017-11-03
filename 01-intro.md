@@ -17,11 +17,20 @@ keypoints:
 - Does everyone have OpenSCAD installed?
 - And Cura?
 
-# Intro
+# 3D design
+Imagine a wizard, who is able to conjure up things purely by holding them in his mind and making them physical by willpower alone. Designing 3D objects is a bit like that - we describe our objects with code and maths, and make them physical.
+
+```
+Add idea -> openscad -> STL and then STL -> Cura -> Printer idea here
+```
+
+
+# Why OpenSCAD
 OpenSCAD is great at making parametric designs — models represented by numbers that can be easily adjusted to change the size, shape, or any other aspect of a design.
-It creates designs based on precise measurements or specific tolerances, that can have moving parts, and use mathematical or procedural information.
-It is completely free, runs on all platforms including mobile phones [https://play.google.com/store/apps/details?id=com.scorchworks.scorchcad] and the web [http://openscad.net/].
+It creates designs based on precise measurements or specific tolerances, that can have moving parts, and use mathematical or procedural information - hence it is great for different scientific appications.
+It is completely free, and runs on all platforms including mobile phones [https://play.google.com/store/apps/details?id=com.scorchworks.scorchcad] and the web [http://openscad.net/].
 It is easy to make parts that can be reused several times in different ways in the same or other designs, and the possibility for command-line swiches make automated builds possible.
+And for the die-hard programmer, OpenSCAD is easy to use with version control systems.
 
 
 ![alt text](bilder/wizard.png "Wizard")
