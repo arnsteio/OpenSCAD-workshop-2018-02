@@ -27,7 +27,7 @@ Add idea -> openscad -> STL and then STL -> Cura -> Printer idea here
 
 # Why OpenSCAD
 OpenSCAD is great at making parametric designs — models represented by numbers that can be easily adjusted to change the size, shape, or any other aspect of a design.
-It creates designs based on precise measurements or specific tolerances, that can have moving parts, and use mathematical or procedural information - hence it is great for different scientific appications.
+It creates designs based on precise measurements or specific tolerances, that can have moving parts, and use mathematical or procedural information - hence it is great for different scientific applications.
 It is completely free, and runs on all platforms including mobile phones [https://play.google.com/store/apps/details?id=net.a_z_ia.scadwalk] and the web [http://openscad.net/].
 It is easy to make parts that can be reused several times in different ways in the same or other designs, and the possibility for command-line swiches make automated builds possible.
 And for the die-hard programmer, OpenSCAD is easy to use with version control systems.
