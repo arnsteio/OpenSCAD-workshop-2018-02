@@ -37,11 +37,10 @@ sphere(r =20);
 However, we need to be able to combine these to make interesting shapes.
 
 ## CSG operations
-
-CSG operations are
+Constructive Solid Geometry (CSG) is a modeling technique that uses Boolean operations like union and intersection to combine 3D solids.
 
 ## Transforms
-Transforma
+Transforms
 
 ---
 
