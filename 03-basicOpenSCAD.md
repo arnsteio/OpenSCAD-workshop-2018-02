@@ -13,6 +13,21 @@ keypoints:
 ---
 
 # Basic OpenSCAD operations
+##
+~~~
+/* 
+You can easily
+use multi-line comments.
+Or one-line comments like we do below:
+*/
+
+TestNumber = 5; // This sets the variable "TestNumber" to zero
+
+// Output a string and the value of "TestNumber":
+echo("My number is:");
+echo(TestNumber);
+~~~
+
 ## Shapes
 
 Open OpenScad, and try this:
