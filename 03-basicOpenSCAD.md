@@ -57,10 +57,16 @@ difference() subtracts all child nodes from the first one
 intersection() creates the intersection of all child nodes. Only the area shared by all the objects is retained.
 
 ~~~
+// this example is by Marius Kintel  - <marius@kintel.net>
+
 union() {
     cube(15, center=true);
     sphere(10);
+}
 ~~~
+Try cahnging union() to difference() and intersection()!
+
+Excercise: How can you make a shape that only has the "sides" of the sphere - the sphere minus the cube?
 
 ## Transforms
 Transforms
