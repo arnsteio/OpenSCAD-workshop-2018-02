@@ -72,7 +72,13 @@ Try changing union() to difference() and intersection()!
 
 ### Try it out
 > Excercise: How can you make a shape that only has the "sides" of the sphere - the sphere minus the cube?
-
+>>~~~
+>>difference() {
+>>    sphere(10);
+>>    cube(15, center=true);    
+>>}
+>>~~~
+>> will do this. The shape we get is a totally valid shape, but difficult to print succesfully.
 
 ## Transformations
 Transformations affect the child nodes and transforms them in various ways such as moving/rotating or scaling the child. We will look at three:
