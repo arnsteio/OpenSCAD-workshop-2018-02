@@ -13,11 +13,8 @@ keypoints:
 ---
 
 # Basic OpenSCAD operations
-##
-~~~
-
-TestNumber = 5; // This sets the variable "TestNumber" to zero
-~~~
+OpenSCAD is a very powerful language and we cannot cover everything. I will just cover a few commands, and usually just the way I usually use it, not all ways it can be used. If you encounter code you don't understand, check out the [manual](http://www.openscad.org/cheatsheet/).
+After this lesson, you should still be able to model anything you wish.
 
 ## Shapes
 
@@ -82,9 +79,9 @@ Try changing union() to difference() and intersection()!
 
 ## Transformations
 Transformations affect the child nodes and transforms them in various ways such as moving/rotating or scaling the child. We will look at three:
-- translate([x,y,z])
-- scale([x,y,z])
-- rotate([x,y,z])
+- translate([x,y,z]) moves its child elements along the specified vector. 
+- scale([x,y,z]) scales its child elements using the specified vector. 
+- rotate([deg_x, deg_y, deg_z]) rotates its child a number of degrees about the axis of the coordinate system.
 
 ~~~
 // Test translation
