@@ -31,31 +31,37 @@ Open OpenScad, and try this:
 // Test cube
 cube([50, 10, 5], center=true);
 ~~~
-Press the F5 key to render your code. "cube" is self explanatury, and the numbers give the lengths - X, Y and Z - of the described shape. "center" means the figure will be centered in the origin of the coordinate system as opposed to in the first quadrant (try both if you want).
+Press the F5 key to render your code. 
+Everything after "//" is a comment - it is just useful for us humans, it isn't part of the shape.  
+"cube" is self explanatury, and the numbers give the lengths - X, Y and Z - of the described shape. 
+"center" means the figure will be centered in the origin of the coordinate system as opposed to in the first quadrant (try both if you want).
 
 Now add to the above:
 ~~~
-cube([50, 10, 5],center=true);
+cube([50, 10, 5],c enter=true);
 cylinder(d1=10, d2=40, h=50, center=true);
 ~~~
 Again, press F5 to render.
 
-We can continue doing this - try e.g.
+We can continue doing this - try adding a sphere:
 ~~~
 cube([50, 10, 5],center=true);
 cylinder(d1=10, d2=40, h=50, center=true);
 sphere(r=20);
 ~~~
-Finding bugs in our thinking when shapes are inside other shapes can be difficult, putting "%" in front of a shape 
+Finding bugs in our code when shapes are inside other shapes can be difficult, putting "%" in front of a shape makes it transparent. 
+Try doing that in front of the line with the sphere.
 However, we need to be able to combine these to make interesting shapes.
 
-## CSG operations
+## Constructive Solid Geometry operations
 Constructive Solid Geometry (CSG) is a modeling technique that uses Boolean operations like union and intersection to combine 3D solids.
+We have:
 
-union() creates a union of all its child nodes.
-difference() subtracts all child nodes from the first one
-intersection() creates the intersection of all child nodes. Only the area shared by all the objects is retained.
+- union() creates a union of all its child nodes.
+- difference() subtracts all child nodes from the first one
+- intersection() creates the intersection of all child nodes. Only the area shared by all the objects is retained.
 
+Let's try an example:
 ~~~
 // this example is by Marius Kintel  - <marius@kintel.net>
 
