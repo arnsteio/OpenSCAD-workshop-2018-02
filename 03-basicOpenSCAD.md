@@ -103,7 +103,7 @@ translate([-20, 0, 0]) rotate([45, 0, 0]) cube(15, center=true);
 ### Documentation
 
 Several others transformations can be found in the documentation. 
-(http://www.openscad.org/cheatsheet/) is a very good cheat sheet, with each operation clickable. I always have it open when I model. 
+[http://www.openscad.org/cheatsheet/] is a very good cheat sheet, with each operation clickable. I always have it open when I model. 
 
 ### Try it out
 > Excercise: How can you make a flattened sphere with a hole in the middle?
