@@ -82,13 +82,43 @@ Try changing union() to difference() and intersection()!
 
 ## Transformations
 Transformations affect the child nodes and transforms them in various ways such as moving/rotating or scaling the child. We will look at three:
-- translate
-- scale
-- rotate
-Several others can be found in the documentation. 
+- translate([x,y,z])
+- scale([x,y,z])
+- rotate([x,y,z])
 
-## Documentation
+~~~
+// Test translation
+translate([20, 0, 0]) difference() {
+    cube(15, center=true);
+    sphere(10);
+}
+
+// Test scaling
+scale([1, 0.5, 2]) difference() {
+    cube(15, center=true);
+    sphere(10);
+}
+
+// Test rotation - after a translation
+translate([-20, 0, 0]) rotate([45, 0, 0]) cube(15, center=true);
+~~~
+
+### Documentation
+
+Several others transformations can be found in the documentation. 
 (http://www.openscad.org/cheatsheet/) is a very good cheat sheet, with each operation clickable. I always have it open when I model. 
+
+### Try it out
+> Excercise: How can you make a flattened sphere with a hole in the middle?
+>> Solution: Several possibilities, one is:
+>>~~~
+>>$fn=100;
+>>difference() {
+>>   scale ([1, 1, 0.5]) sphere(10);
+>>   cylinder(h=10, r=5, center=true);
+>>}
+>>~~~
+>>The "$fn" variable decides the number of fragments in a circle. Keep it below 50 for design work; when finalizing your model you can increase it to get a smooth design.
 
 ---
 
