@@ -15,18 +15,13 @@ keypoints:
 # Basic OpenSCAD operations
 ##
 ~~~
-/*
-You can easily
-use multi-line comments.
-Or one-line comments like we do below:
-*/
 
 TestNumber = 5; // This sets the variable "TestNumber" to zero
 ~~~
 
 ## Shapes
 
-Open OpenScad, and try this:
+Open OpenSCAD, and try this:
 ~~~
 // Test cube
 cube([50, 10, 5], center=true);
@@ -63,24 +58,32 @@ We have:
 
 Let's try an example:
 ~~~
-// this example is by Marius Kintel  - <marius@kintel.net>
+/* This is a multi-line comment.
+The example is by Marius Kintel
+-- <marius@kintel.net>
+*/
 
 union() {
     cube(15, center=true);
     sphere(10);
 }
 ~~~
-Try cahnging union() to difference() and intersection()!
+Try changing union() to difference() and intersection()!
 
 ### Try it out
 > Excercise: How can you make a shape that only has the "sides" of the sphere - the sphere minus the cube?
 
 
 ## Transformations
-Transformation affect the child nodes and transforms them in various ways such as moving/rotating or scaling the child.
-translate
-scale
-rotate
+Transformations affect the child nodes and transforms them in various ways such as moving/rotating or scaling the child. We will look at three:
+- translate
+- scale
+- rotate
+Several others can be found in the documentation. 
+
+## Documentation
+(http://www.openscad.org/cheatsheet/) is a very good cheat sheet, with each operation clickable. I always have it open when I model. 
+
 ---
 
 Subjects covered:
