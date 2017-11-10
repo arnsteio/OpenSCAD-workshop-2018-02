@@ -15,7 +15,7 @@ keypoints:
 # Basic OpenSCAD operations
 ##
 ~~~
-/* 
+/*
 You can easily
 use multi-line comments.
 Or one-line comments like we do below:
@@ -31,9 +31,9 @@ Open OpenScad, and try this:
 // Test cube
 cube([50, 10, 5], center=true);
 ~~~
-Press the F5 key to render your code. 
+Press the F5 key to render your code.
 Everything after "//" is a comment - it is just useful for us humans, it isn't part of the shape.  
-"cube" is self explanatury, and the numbers give the lengths - X, Y and Z - of the described shape. 
+"cube" is self explanatury, and the numbers give the lengths - X, Y and Z - of the described shape.
 "center" means the figure will be centered in the origin of the coordinate system as opposed to in the first quadrant (try both if you want).
 
 Now add to the above:
@@ -49,7 +49,7 @@ cube([50, 10, 5],center=true);
 cylinder(d1=10, d2=40, h=50, center=true);
 sphere(r=20);
 ~~~
-Finding bugs in our code when shapes are inside other shapes can be difficult, putting "%" in front of a shape makes it transparent. 
+Finding bugs in our code when shapes are inside other shapes can be difficult, putting "%" in front of a shape makes it transparent.
 Try doing that in front of the line with the sphere.
 However, we need to be able to combine these to make interesting shapes.
 
@@ -72,11 +72,15 @@ union() {
 ~~~
 Try cahnging union() to difference() and intersection()!
 
-Excercise: How can you make a shape that only has the "sides" of the sphere - the sphere minus the cube?
+### Try it out
+> Excercise: How can you make a shape that only has the "sides" of the sphere - the sphere minus the cube?
 
-## Transforms
-Transforms
 
+## Transformations
+Transformation affect the child nodes and transforms them in various ways such as moving/rotating or scaling the child.
+translate
+scale
+rotate
 ---
 
 Subjects covered:
