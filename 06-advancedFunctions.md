@@ -8,4 +8,3 @@ echo(TestNumber);
 ~~~
 
 hull()
-
