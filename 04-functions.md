@@ -15,10 +15,10 @@ translate([100, 0, 0]) rotate([0,0,90]) cube([100, 10, 15], center=false);
 
 Things are going swell, however fate - in the guise of your friend Kari - intervenes:
 
-*Hi, are you still making that pet cage clip for your hamster?*
-
+>*Hi, are you still making that pet cage clip for your hamster?*
+>
 > Yeah...?
-
+>
 *My 6-sided bird cage broke. Could you print a clip for me, too?*
 
 > Sure, but I need some measurements...
