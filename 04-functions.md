@@ -19,12 +19,12 @@ Things are going swell, however fate - in the guise of your friend Kari - interv
 >
 > Yeah...?
 >
-*My 6-sided bird cage broke. Could you print a clip for me, too?*
-
+>*My 6-sided bird cage broke. Could you print a clip for me, too?*
+>
 > Sure, but I need some measurements...
-
-*Each segment is 5cm long, 1cm wide and 15mm tall. The slot for the bars is 4mm wide and 6mm deep.*
-
+>
+>*Each segment is 5cm long, 1cm wide and 15mm tall. The slot for the bars is 4mm wide and 6mm deep.*
+>
 > I'll bring it to Uni on friday :-)
 
 So we'll make a more generic solution. Let's start by defining what we know:
