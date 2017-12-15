@@ -32,6 +32,8 @@ It is completely free, and runs on all platforms including mobile phones [https:
 It is easy to make parts that can be reused several times in different ways in the same or other designs, and the possibility for command-line swiches make automated builds possible.
 And for the die-hard programmer, OpenSCAD is easy to use with version control systems.
 
+OpenSCAD is unsuited for 3D objects that are ment to be seen rather than "made flesh" - like movies (see e.g. [http://www.youtube.com/watch?v=JE1zgCftocc]) or 3D scenes. This requires a 
+whole different set of tools, tools that, on the other hand, often makes 3D shapes that cannot be printed because the geometry turns out to have holes or other problems. 
 
 ![alt text](bilder/wizard.png "Wizard")
 
