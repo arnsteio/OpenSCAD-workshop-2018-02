@@ -48,7 +48,7 @@ However, we need to be able to combine these to make interesting shapes.
 ## Constructive Solid Geometry operations
 Constructive Solid Geometry (CSG) is a modeling technique that uses Boolean operations like union and intersection to combine 3D solids.
 
-![alt text](bilder/Csg_tree.png "CSG objects can be represented by binary trees, where leaves represent primitives, and nodes represent operations. In this figure, the nodes are labeled {\displaystyle \cap } \cap  for intersection, {\displaystyle \cup } \cup  for union, and {\displaystyle -\!} -\! for difference.")
+![alt text](bilder/Csg_tree.png "CSG objects can be represented by binary trees, where leaves represent primitives, and nodes represent operations. In this figure, the nodes are labeled {\displaystyle \cap } \cap  for intersection, {\displaystyle \cup } \cup  for union, and {\displaystyle -\!} -\! for difference. Image courtecy of https://commons.wikimedia.org/wiki/User:Zottie")
 
 We have:
 
