@@ -24,6 +24,16 @@ Imagine a wizard, who is able to conjure up things purely by holding them in his
 Add idea -> openscad -> STL and then STL -> Cura -> Printer idea here
 ```
 
+## Tools of the trade
+- Ruler, to measure the real world
+- Knife, to remove finished print from
+printer and to remove supports
+- Plier, to remove  supports
+- Fileto clean prints
+- Design software, like OpenSCAD
+- Slicing software, like 
+
+
 
 # Why OpenSCAD
 OpenSCAD is great at making parametric designs — models represented by numbers that can be easily adjusted to change the size, shape, or any other aspect of a design.
