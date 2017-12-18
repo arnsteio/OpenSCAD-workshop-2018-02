@@ -55,13 +55,13 @@ whole different set of tools, tools that, on the other hand, often makes 3D shap
 This workshop will give you experience designing 3D models in OpenSCAD, and preparing them for printing with Cura. It will demonstrate use of the 3D printer that Realfagsbiblioteket has available for lending.
 
 ## Tools of the trade
-1) Design
+1. Design
 ⋅⋅* Ruler, to measure the real world
 ⋅⋅* Design software, like OpenSCAD
-2) Printing
+2. Printing
 ⋅⋅* Slicing software, like Cura
 ⋅⋅* Knife, to remove finished print from printer 
-3) Finishing
+3. Finishing
 ⋅⋅* Knife, to remove supports
 ⋅⋅* Plier, also useful to remove  supports
 ⋅⋅* File or sand paper to clean prints
