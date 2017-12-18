@@ -9,8 +9,8 @@ cube([10, 60, 15], center=false);
 ~~~
 
 ~~~
-cube([100, 10, 15], center=false);
-translate([100, 0, 0]) rotate([0,0,90]) cube([100, 10, 15], center=false);
+cube([60, 10, 15], center=false);
+translate([60, 0, 0]) rotate([0,0,90]) cube([60, 10, 15], center=false);
 ~~~
 
 Things are going swell, however fate - in the guise of your friend Kari - intervenes with a phone call:
