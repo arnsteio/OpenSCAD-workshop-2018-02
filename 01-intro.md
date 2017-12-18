@@ -56,15 +56,15 @@ This workshop will give you experience designing 3D models in OpenSCAD, and prep
 
 ## Tools of the trade
 1. Design
-⋅⋅* Ruler, to measure the real world
-⋅⋅* Design software, like OpenSCAD
+  * Ruler, to measure the real world
+  * Design software, like OpenSCAD
 2. Printing
-⋅⋅* Slicing software, like Cura
-⋅⋅* Knife, to remove finished print from printer 
+  * Slicing software, like Cura
+  * Knife, to remove finished print from printer 
 3. Finishing
-⋅⋅* Knife, to remove supports
-⋅⋅* Plier, also useful to remove  supports
-⋅⋅* File or sand paper to clean prints
+  * Knife, to remove supports
+  * Plier, also useful to remove  supports
+  * File or sand paper to clean prints
 
 
 Subjects covered:
