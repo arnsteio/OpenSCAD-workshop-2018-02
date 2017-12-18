@@ -13,7 +13,9 @@ keypoints:
 ---
 
 # Basic OpenSCAD operations
-OpenSCAD is a very powerful language and we cannot cover everything. I will just cover a few commands, and usually just the way I usually use it, not all ways it can be used. If you encounter code you don't understand, check out the [manual](http://www.openscad.org/cheatsheet/).
+OpenSCAD is a very powerful language and we cannot cover everything. 
+I will just cover a few commands, and usually just the way I usually use it, not all ways it can be used. 
+If you encounter code you don't understand, check out the [manual](http://www.openscad.org/cheatsheet/).
 After this lesson, you should still be able to model anything you wish.
 
 ## Shapes
@@ -43,7 +45,8 @@ sphere(r=20);
 ~~~
 Finding bugs in our code when shapes are inside other shapes can be difficult, putting "%" in front of a shape makes it transparent.
 Try doing that in front of the line with the sphere.
-However, we need to be able to combine these to make interesting shapes.
+
+However, we need to be able to combine shapes to make interesting shapes.
 
 ## Constructive Solid Geometry operations
 Constructive Solid Geometry (CSG) is a modeling technique that uses Boolean operations like union and intersection to combine 3D solids.
@@ -81,7 +84,7 @@ Try changing union() to difference() and intersection()!
 >> will do this. The shape we get is a totally valid shape, but difficult to print succesfully.
 
 ## Transformations
-Transformations affect the child nodes and transforms them in various ways such as moving/rotating or scaling the child. We will look at three:
+Transformations affect the child nodes and transforms them in various ways such as moving, rotating or scaling the child. We will look at three:
 - translate([x,y,z]) moves its child elements along the specified vector. 
 - scale([x,y,z]) scales its child elements using the specified vector. 
 - rotate([deg_x, deg_y, deg_z]) rotates its child a number of degrees about the axis of the coordinate system.
@@ -103,10 +106,13 @@ scale([1, 0.5, 2]) difference() {
 translate([-20, 0, 0]) rotate([45, 0, 0]) cube(15, center=true);
 ~~~
 
-### Documentation
+## Documentation and learning resources
+The most important resource on the net is IMO the OpenSCAD cheat sheet, at [http://www.openscad.org/cheatsheet/]. 
+It is hyperlinked to the on-line manual.
+It documents, among other things, several more transformations. 
+I _always_ have this open when I model.
 
-Several others transformations can be found in the documentation. 
-[http://www.openscad.org/cheatsheet/] is a very good cheat sheet, with each operation clickable. I always have it open when I model. 
+I have occasionally gotten important insights looking at other people's code, e.g. code published at [https://www.thingiverse.com/].
 
 ### Try it out
 > Excercise: How can you make a flattened sphere with a hole in the middle?
@@ -132,4 +138,5 @@ Subjects covered:
 Learning outcomes:
 - Able to design models with OpenSCAD
 - Able to print models on extruders
+
 [Next slide](04-functions.md)

@@ -43,7 +43,7 @@ clip_angle=60;
 	translate([clip_length, 0, 0]) rotate([0,0,clip_angle]) cube([clip_length,clip_width,clip_height], center=false);
 ~~~
 
-This works, and is pretty generic. But we need to make the cutout for the bar, and reusing that code would be perfect:
+This works, and is pretty generic. But we need to make the cutout for the bar, and reusing that code would be perfect. We make a _module_ out of the code we have:
 
 ~~~
 /* [Global] */ 
@@ -64,7 +64,9 @@ module angle(length, width, height, angle)
 angle(clip_length, clip_width, clip_height, clip_angle);
 ~~~
 
-We can now reuse the code to make the cutout. We make parts of the design transparent by putting a "%" in front of what we want to look through:
+We can now reuse the code to make the cutout. 
+We make a "build module" to call our original module twice, with different measurements. 
+Again, we'll make parts of the design transparent by putting a "%" in front of parts we want to be transparent:
 
 ~~~
 /* [Global] */
@@ -94,7 +96,7 @@ module clip()
 clip();
 ~~~
 
-That's very cool. Let's now move the cutout to the correct position:
+That's a great beginning, almost finished in fact! Let's now move the cutout to the correct position:
 
 ~~~
 /* [Global] */
