@@ -18,22 +18,42 @@ keypoints:
 - And Cura?
 
 # 3D design
-Imagine a wizard, who is able to conjure up things purely by holding them in his mind and making them physical by willpower alone. Designing 3D objects is a bit like that - we describe our objects with code and maths, and make them physical.
+Imagine a wizard, who is able to conjure up things purely by holding them in his mind and making them physical by willpower alone. 
+Designing 3D objects is a bit like that - we describe our objects with code and maths, and make them physical.
+
+## The design process
+
+1) You start with an _idea for a thing_ - something you want to make.
+2) You _make a digital model_ of that thing. The digital model can be in any of a number of formats - today we use OpenSCAD.
+3) An extruder (the type of 3D printer we work with) is really just a hot glue gun controlled by a computer.
+The printer needs specific instructions on where to move the print head and how much material to deposit in each place.
+The Gcode format is used for this.
+The  programs that make Gcode instructions from models all read the STL file format, so you should _export your model to .stl_.
+4) You can import  your .stl file to the Cura program (or a similar program) and  _make a Gcode file_. The Gcode file is what you give the printer.
+
+---
+STL (an abbreviation of "stereolithography") is a file format native to the stereolithography CAD software created by 3D Systems.
+STL files describe only the surface geometry of a three-dimensional object without any representation of color, texture or other common CAD model attributes.
+---
 
 ```
-Add idea -> openscad -> STL and then STL -> Cura -> Printer idea here
+Add idea -> openscad -> STL and then STL -> Cura -> Printer picture here
 ```
+![alt text](bilder/wizard.png "Wizard")
+
 
 ## Tools of the trade
+### Design
 - Ruler, to measure the real world
-- Knife, to remove finished print from
-printer and to remove supports
-- Plier, to remove  supports
-- Fileto clean prints
 - Design software, like OpenSCAD
-- Slicing software, like 
-
-
+### Printing
+- Slicing software, like Cura
+- Knife, to remove finished print from
+printer 
+### Finishing
+- Knife, to remove supports
+- Plier, also useful to remove  supports
+- File or sand paper to clean prints
 
 # Why OpenSCAD
 OpenSCAD is great at making parametric designs — models represented by numbers that can be easily adjusted to change the size, shape, or any other aspect of a design.
@@ -44,8 +64,6 @@ And for the die-hard programmer, OpenSCAD is easy to use with version control sy
 
 OpenSCAD is unsuited for 3D objects that are ment to be seen rather than "made flesh" - like movies (see e.g. [http://www.youtube.com/watch?v=JE1zgCftocc]) or 3D scenes. This requires a 
 whole different set of tools, tools that, on the other hand, often makes 3D shapes that cannot be printed because the geometry turns out to have holes or other problems. 
-
-![alt text](bilder/wizard.png "Wizard")
 
 This workshop will give you experience designing 3D models in OpenSCAD, and preparing them for printing with Cura. It will demonstrate use of the 3D printer that Realfagsbiblioteket has available for lending.
 
