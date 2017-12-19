@@ -119,13 +119,47 @@ module clip()
         difference()
             {
             %angle(clip_length, clip_width, clip_height, clip_angle);
-            translate([]) angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
+            translate([0,(clip_width/2)-(bar_width/2),0]) angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
             }
     }
         
 clip();
 ~~~
 
+Uh - that works for the Y axis, bit the X axis is off. 
+To fix this we need to do some triginometry. 
+Luckily, [Wikipedia](https://en.wikipedia.org/) has a good section on [trigonometry](https://en.wikipedia.org/wiki/Trigonometric_functions).
+
+
+
+~~~
+/* [Global] */
+clip_length=50;
+clip_width=10;
+clip_height=15;
+clip_angle=60;
+
+bar_width=4;
+bar_insertion_depth=6;
+
+module angle(length, width, height, angle)
+    {
+        cube([length, width, height], center=false);
+        translate([length, 0, 0]) rotate([0,0,angle]) cube([length, width, height], center=false);
+    }
+
+module clip()
+    {
+        difference()
+            {
+            %angle(clip_length, clip_width, clip_height, clip_angle);
+            translate([-((clip_width/2)-(bar_width/2))/tan(60),(clip_width/2)-(bar_width/2),0]) angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
+            }
+    }
+        
+clip();
+
+// The only problem with this - is that It Is Wrong - works for 60 degrees but not generically. 
 
 ~~~
 Some later segment introduce
