@@ -23,13 +23,13 @@ Designing 3D objects is a bit like that - we describe our objects with code and 
 
 ## The design process
 
-1) You start with an __idea for a thing__ - something you want to make.
-2) You __make a digital model__ of that thing. The digital model can be in any of a number of formats - in this course we use OpenSCAD.
-3) An extruder (the type of 3D printer we work with) is really just a hot glue gun controlled by a computer.
+1. You start with an __idea for a thing__ - something you want to make.
+2. You __make a digital model__ of that thing. The digital model can be in any of a number of formats - in this course we use OpenSCAD.
+3. An extruder (the type of 3D printer we work with) is really just a hot glue gun controlled by a computer.
 The printer needs specific instructions on where to move the print head and how much material to deposit in each place.
 The Gcode format is used for this.
 The  programs that make Gcode instructions from models all read the STL file format, so you should __export your model to .stl__.
-4) You can import  your .stl file to the Cura program (or a similar program) and  __make a Gcode file__. The Gcode file is what you give the printer.
+4. You can import  your .stl file to the Cura program (or a similar program) and  __make a Gcode file__. The Gcode file is what you give the printer.
 
 ```
 STL (an abbreviation of "stereolithography") is a file format native to the stereolithography CAD software created by 3D Systems.
