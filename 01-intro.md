@@ -51,7 +51,8 @@ whole different set of tools, tools that, on the other hand, often makes 3D shap
 
 Parametric modeling uses parameters to define a model - dimensions, for example. 
 The parameter may be modified later, and the model will update to reflect the modification. 
-Although resizing is one example, a good model will often allow you to change it in more complex ways, that require different parts of the model be changed in different ways. 
+Although resizing is one example, a good model will often allow you to change it in more complex ways, 
+where requirements to change  different parts of the model in different ways is handled transparently to the user. 
 OpenSCAD is eminently suitable for parametric design. Web sites like [https://www.thingiverse.com/] even include hooks to change the model interactively, on the web site, before you download it. 
 Our ["Gothic Roof"](https://www.thingiverse.com/thing:2693666) has this possibility. 
 

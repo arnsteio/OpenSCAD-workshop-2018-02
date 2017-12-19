@@ -81,7 +81,7 @@ Try changing union() to difference() and intersection()!
 >>    cube(15, center=true);    
 >>}
 >>~~~
->> will do this. The shape we get is a totally valid shape, but difficult to print succesfully.
+>> will do this. The shape we get is a valid shape, but difficult to print succesfully.
 
 ## Transformations
 Transformations affect the child nodes and transforms them in various ways such as moving, rotating or scaling the child. We will look at three:
