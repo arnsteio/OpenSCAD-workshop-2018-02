@@ -153,13 +153,11 @@ module clip()
         difference()
             {
             %angle(clip_length, clip_width, clip_height, clip_angle);
-            translate([-((clip_width/2)-(bar_width/2))/tan(60),(clip_width/2)-(bar_width/2),0]) angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
+            translate([-((clip_width/2)-(bar_width/2))*tan(clip_angle/2),(clip_width/2)-(bar_width/2),0]) angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
             }
     }
         
 clip();
-
-// The only problem with this - is that It Is Wrong - works for 60 degrees but not generically. 
 
 ~~~
 Some later segment introduce
