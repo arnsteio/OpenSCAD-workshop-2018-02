@@ -71,6 +71,8 @@ union() {
     sphere(10);
 }
 ~~~
+Operators like 'union' use braces '{}'  when their scope covers more than one action.
+
 Try changing union() to difference() and intersection()!
 
 ### Try it out
