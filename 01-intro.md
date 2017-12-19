@@ -33,14 +33,10 @@ The  programs that make Gcode instructions from models all read the STL file f
 4) You can import  your .stl file to the Cura program (or a similar program) and  __make a Gcode file__. The Gcode file is what you give the printer.
 
 ```
-
 STL (an abbreviation of "stereolithography") is a file format native to the stereolithography CAD software created by 3D Systems.
 STL files describe only the surface geometry of a three-dimensional object without any representation of color, texture or other common CAD model attributes.
 ```
-```
-Add idea -> openscad -> STL and then STL -> Cura -> Printer picture here
-```
-![alt text](bilder/wizard.png "Wizard")
+![alt text](bilder/DesignProcess.png "The 3D Design chain")
 
 ## Why OpenSCAD
 OpenSCAD is great at making parametric designs — models represented by numbers that can be easily adjusted to change the size, shape, or any other aspect of a design.
