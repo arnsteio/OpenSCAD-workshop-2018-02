@@ -25,9 +25,10 @@ Open OpenSCAD, and try this:
 // Test cube
 cube([50, 10, 5], center=true);
 ~~~
-Press the F5 key to render your code.
-Everything after "//" is a comment - it is just useful for us humans, it isn't part of the shape.  
+Press the F5 key to render your code. 
+Everything after "//" is a comment - it is just useful for us humans, it isn't part of the shape.
 "cube" is self explanatury, and the numbers give the lengths - X, Y and Z - of the described shape.
+Anything within square brackets [] is a vector, and this vector describes the extent of the cube.  
 "center" means the figure will be centered in the origin of the coordinate system as opposed to in the first quadrant (try both if you want).
 
 Now add to the above:
@@ -36,8 +37,11 @@ cube([50, 10, 5],c enter=true);
 cylinder(d1=10, d2=40, h=50, center=true);
 ~~~
 Again, press F5 to render.
+The cylinder is defined with the diameters of both ends, and the height. 
+A cylinder will always be centered along the Z azis, but "center" centers the figure along the X,Y plane. 
+"center=false" places the cylinder on top of the X,Y plane. 
 
-We can continue doing this - try adding a sphere:
+We can continue adding shapes - try adding a sphere:
 ~~~
 cube([50, 10, 5],center=true);
 cylinder(d1=10, d2=40, h=50, center=true);
