@@ -44,8 +44,9 @@ It is eminently suited for making parametric models.
 Parts can often be reused several times in different ways in the same or other designs, and the possibility for command-line swiches make automated builds possible.
 And for the die-hard programmer, OpenSCAD is easy to use with version control systems.
 
-OpenSCAD is unsuited for 3D objects that are ment to be seen rather than "made flesh" - like movies (see e.g. [http://www.youtube.com/watch?v=JE1zgCftocc]) or 3D scenes. This requires a 
-whole different set of tools, tools that, on the other hand, often makes 3D shapes that cannot be printed because the geometry turns out to have holes or other problems. 
+OpenSCAD is unsuited for 3D objects that are ment to be seen rather than printed - like movies (see e.g. [http://www.youtube.com/watch?v=JE1zgCftocc]) or 3D scenes. 
+This requires a whole different set of tools, tools that, on the other hand, often makes 3D shapes that cannot be printed because of problems in the geometry. 
+They will often turn out to have holes or other problems.
 
 ### Parametric design
 
@@ -59,14 +60,15 @@ Our ["Gothic Roof"](https://www.thingiverse.com/thing:2693666) has this possibil
 ### Reusing code
 
 Users can define their own modules and functions. 
-This allows grouping portions of script for easy reuse with different values (agan, think parametric design). 
+This allows grouping portions of script for easy reuse with different values. 
 Even when that isn't easy you can often borrow bits of code for use in other places. 
-The ["Japanese hirajiro castle"](https://www.thingiverse.com/thing:16862) reuses code extensively - it appears to be a complex build, but is actually fairly simple. 
+The ["Japanese hirajiro castle"](https://www.thingiverse.com/thing:16862) reuses code extensively - it appears to be a complex model, but is actually fairly simple. 
 
 ## Tools of the trade
 1. Design
   * Ruler, to measure the real world
   * Design software, like OpenSCAD
+  * A protractor can occasionally be a good tool
 2. Printing
   * Slicing software, like Cura
   * Knife, to remove finished print from printer 
