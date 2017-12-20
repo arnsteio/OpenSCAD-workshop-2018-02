@@ -1,4 +1,13 @@
 # Miscellaneous other functions
+
+
+## Hull()
+
+## Low $fn for fast modelling
+
+
+
+
 ~~~
 TestNumber = 5; // This sets the variable "TestNumber" to zero
 
