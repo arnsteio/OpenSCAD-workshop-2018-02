@@ -2,22 +2,18 @@
 title: OpenSCAD workshop
 teaching: 5
 exercises: 0
-questions:
-- "What is the 'idea to finished product' 3D design workflow?"
-- "Why use OpenSCAD?"
 objectives:
 - "Understand the 3D design workflow"
 - "Understand the benefits of parametric designs."
 - "Understand the benefits of reusing code."
 - "Workflow tools"
-keypoints:
-- ""
 ---
-# Before we start:
+# Intro to 3d design and 3D printing
+## Before we start:
 - Does everyone have OpenSCAD installed?
 - And Cura?
 
-# 3D design
+## 3D design
 Imagine a wizard, who is able to conjure up things purely by holding them in his mind and making them physical by willpower alone. 
 Designing 3D objects is a bit like that - we describe our objects with code and maths, and make them physical.
 
