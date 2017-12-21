@@ -12,7 +12,6 @@ Understanding what length we need, and finding the length of the corresponding r
 Using trignometry to find the relevant side:
 ![alt text](bilder/trig03.png "Using trignometry to find the relevant side")
 
-FIXME, this picture is borked!
 Cheking with another example to see if this is a generic solution:
 ![alt text](bilder/trig04.png "Cheking with another example to see if this is a generic solution")
 
