@@ -61,7 +61,7 @@ width=20;
 minkowski() does the [Minkowski sum](https://doc.cgal.org/latest/Minkowski_sum_3/) of child nodes. 
 
 ![alt text](bilder/minkowski_spoon_star.png "The Minkowski sum of a spoon and a star.")
-
+The Minkowski sum of a spoon and a star. Picture by Peter Hachenberger.
 
 ~~~
 // Try doing the minkowski sum on this example!
