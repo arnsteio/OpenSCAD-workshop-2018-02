@@ -85,6 +85,9 @@ This example is of course construed, but loops are frequently very useful.
 We will modify the "build" module to accept angle as a variable, and make one clip for each angle uo to "clip_angle":
 ~~~
 // New clip module:
+
+error=0.01; // generic "very small number"
+
 module clip(build_angle)
     {
         difference()
