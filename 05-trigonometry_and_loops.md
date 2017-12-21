@@ -86,7 +86,7 @@ We will modify the "build" module to accept angle as a variable, and make one cl
 ~~~
 // New clip module:
 
-error=0.01; // generic "very small number"
+error=0.01; // generic "very small number" to avoid non-overlapping objects
 
 module clip(build_angle)
     {
@@ -104,15 +104,5 @@ for (angle = [0:clip_angle]) {
     clip(angle);
     }
 ~~~
-
-
-~~~
-Some later segment introduce
-/* [Hidden] */
-error = 0.01; // To avoid non-overlapping objects
-$fn=50;
-~~~
-
-
 
 [Next slide](06-advancedFunctions.md)
