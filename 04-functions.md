@@ -127,47 +127,12 @@ clip();
 ~~~
 
 Uh - that works for the Y axis, bit the X axis is off. 
-To fix this we need to do some triginometry. 
-Luckily, [Wikipedia](https://en.wikipedia.org/) has a good section on [trigonometry](https://en.wikipedia.org/wiki/Trigonometric_functions).
+To fix this we can do one of three things:
 
+1. Try several numbers to find one that works. Nothing wrong with that, although the solution will not be generic.
+2. Design the clip in a way that works around that problem. That's absolutely doable.
+3. Do some trigonometry to make a generic solution that works without a redesign. 
 
+We will follow possibility 3 :-)
 
-~~~
-/* [Global] */
-clip_length=50;
-clip_width=10;
-clip_height=15;
-clip_angle=60;
-
-bar_width=4;
-bar_insertion_depth=6;
-
-module angle(length, width, height, angle)
-    {
-        cube([length, width, height], center=false);
-        translate([length, 0, 0]) rotate([0,0,angle]) cube([length, width, height], center=false);
-    }
-
-module clip()
-    {
-        difference()
-            {
-            %angle(clip_length, clip_width, clip_height, clip_angle);
-            translate([-((clip_width/2)-(bar_width/2))*tan(clip_angle/2),(clip_width/2)-(bar_width/2),0]) angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
-            }
-    }
-        
-clip();
-
-~~~
-Some later segment introduce
-/* [Hidden] */ 
-error = 0.01; // To avoid non-overlapping objects
-$fn=50;
-~~~
-
-
-
-
-
-[Next slide](05-trigonometry.md)
+[Next slide](05-trigonometry_and_loops.md)
