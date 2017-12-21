@@ -1,6 +1,6 @@
 # Miscellaneous other functions
 
-## The incredibly versatile Hull()
+## The incredibly useful Hull()
 
 ~~~
 /* This example is courtecy of iamwill
@@ -15,10 +15,9 @@ union() {
 }
 ~~~
 
----
-However, we want the radius of the cone to match up with the radius of the sphere at a given height we move up the cone. We can use sin and cos to figure that out.
-- iamwill
----
+> However, we want the radius of the cone to match up with the radius of the sphere at a given height we move up the cone. We can use sin and cos to figure that out.
+> -- iamwill
+
 ~~~
 union() {
   sphere(r = 20);
@@ -61,6 +60,7 @@ width=20;
 minkowski() does the [Minkowski sum](https://doc.cgal.org/latest/Minkowski_sum_3/) of child nodes. 
 
 ![alt text](bilder/minkowski_spoon_star.png "The Minkowski sum of a spoon and a star.")
+
 The Minkowski sum of a spoon and a star. Picture by Peter Hachenberger.
 
 ~~~
@@ -73,9 +73,10 @@ sphere(r=2);
 }
 ~~~
 
-
+## Output to console window
+I'm not done with this.
 ~~~
-TestNumber = 5; // This sets the variable "TestNumber" to zero
+TestNumber = 5; // This sets the variable "TestNumber" to 5
 
 // Output a string and the value of "TestNumber":
 echo("My number is:");
