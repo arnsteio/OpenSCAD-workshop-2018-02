@@ -21,6 +21,10 @@ A 0.3mm thick wall will not print at all.
 
 ### Layer height
 
+The thicker the layer, the faster the print.
+However, thicker layers also produce less detailed prints.
+I almost always use 0.15mm layer height, which is quite thick.
+
 ## The environment
 
 ## Servicing the printer
