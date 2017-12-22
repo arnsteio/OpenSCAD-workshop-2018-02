@@ -44,4 +44,8 @@ You often go several rounds with test prints before you are happy with what you 
 
 #### Gcode errors
 
+I have had Cura turn fine STL files into Gcode files where some of the layers are skewed on a couple of occasions.
+If that happens, simply make a new Gcode in exactly the same way.
+Chances are, the next file will be fine.
+
 [Next slide](03-basicOpenSCAD.md)
