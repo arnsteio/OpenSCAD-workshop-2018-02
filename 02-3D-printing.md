@@ -10,7 +10,7 @@ When in doubt, use it.
 ### Support
 
 Cura or other slicing software can make printing supports automatically. 
-A better way is often to design models that don't need support, or make the required support yourself.
+It is better to design models in such a way that they don't need support, or make the  required support yourself as part of designing the model.
 
 ### Print head size
 
