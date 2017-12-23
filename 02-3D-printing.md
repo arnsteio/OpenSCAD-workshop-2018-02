@@ -10,7 +10,7 @@ When in doubt, use it.
 ### Support
 
 Cura or other slicing software can make printing supports automatically. 
-A better way is often to design models that don't need support, or make the required support yourself.
+It is better to design models in such a way that they don't need support, or make the  required support yourself as part of designing the model.
 
 ### Print head size
 
@@ -20,6 +20,10 @@ Print head size can matter when you design small details on your models - a 1.0m
 A 0.3mm thick wall will not print at all. 
 
 ### Layer height
+
+The thicker the layer, the faster the print.
+However, thicker layers also produce less detailed prints.
+I almost always use 0.15mm layer height, which is quite thick.
 
 ## The environment
 
@@ -39,5 +43,9 @@ You often go several rounds with test prints before you are happy with what you 
 #### Thin walls
 
 #### Gcode errors
+
+I have had Cura turn fine STL files into Gcode files where some of the layers are skewed on a couple of occasions.
+If that happens, simply make a new Gcode in exactly the same way.
+Chances are, the next file will be fine.
 
 [Next slide](03-basicOpenSCAD.md)
