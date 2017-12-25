@@ -75,6 +75,8 @@ module clip()
 clip();
 ~~~
 
+To get better visualization we move the cut-out up a miniscule amount, hence the "error" variable.
+
 That is our clip pretty much done! The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - make it easy to make any clip you would want. 
 
 But - what if you would like to print 6 of these clips? Let's look at loops.

@@ -64,7 +64,8 @@ minkowski() does the [Minkowski sum](https://doc.cgal.org/latest/Minkowski_sum_3
 The Minkowski sum of a spoon and a star. Picture by Peter Hachenberger.
 
 ~~~
-// Try doing the minkowski sum on this example!
+// Try doing the minkowski sum on this example 
+// by removing the commenting ahead of "minkowski()"!
 $fn=150;
 //minkowski()
 {
