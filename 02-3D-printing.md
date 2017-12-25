@@ -10,7 +10,8 @@ When in doubt, use it.
 ### Support
 
 Cura or other slicing software can make printing supports automatically. 
-It is better to design models in such a way that they don't need support, or make the  required support yourself as part of designing the model.
+It is really better to design models in such a way that they don't need support, or make the required support yourself as part of designing the model.
+However, when that is inconvenient and you need support use the built-in possibility.
 
 ### Print head size
 
@@ -25,13 +26,48 @@ The thicker the layer, the faster the print.
 However, thicker layers also produce less detailed prints.
 I almost always use 0.15mm layer height, which is quite thick.
 
+### Infill
+
 ## The environment
+
+I firmly belive 3D printing can come to have a positive environmental effect on how we make things.
+It is easy to make complex, hollow parts (that can use less material and be lighter), personified things should last longer than mass-produced ones, 
+and we might avoid shipping raw material and partially finished produts back and forth for manufacture. 
+That is not how it is at the moment. 
+Some of the problems include:
+
+- Manufacturing energy needs are large.
+- We use a lot of material for support and other non-essential parts of builds. This uses excess material and energy. 
+- Our plastic is sourced from non-renewable sources, and never breaks down but ends up as micro particles in our seas.
+- Home owned printers are utilised little, leading the manufacturing footprint to be a large part of the total environmental impact.
+- The printing process can make harmful fumes.
+- Filament is not food safe but sometimes used for cutlery. Even using food safe filament the printing process produces layered cracks in which bacteria thrive. 
+
+Without belabouring the point, some quick tips:
+- PLA bio-plastic is a good filament - it requires little energy to make, and has a low melting point so requires fairly little build energy. 
+  It is made from corn starch and is recyclable, biodegradable and compostable. 
+  It creates little fumes when printing. 
+  PLA in itself is food safe, but colored filament usually isn't! 
+  And the cracks for bacteria are still there. 
+- Try to design for printing without support, and orient your parts optimally when printing.
+- Make hollow parts, and use little infill in massive parts
+- Common printers like the one in the library is a good idea environmentally. 
+- Depending on print technology, printing several parts at once might cut down on energy use (this is not true for the Library machine).
 
 ## Servicing the printer
 
+Thus section is specific to [the Ultimaker 2+ printer](https://ultimaker.com/en/products/ultimaker-2-plus) the library currently has. 
+
 ### Changing colour
+You start the filament changing process by selecting it in the menu. 
+It is very easy, but also documented on
+[https://ultimaker.com/en/resources/21476-how-to-insert-filament]
+
 
 ### Printer problems
+[https://ultimaker.com/en/resources/18767-unboxing]
+has a "troubleshooter" section. 
+However, talk to the library if you have serious issues. 
 
 ## Model problems
 
