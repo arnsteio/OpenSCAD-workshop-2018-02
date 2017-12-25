@@ -56,16 +56,16 @@ Without belabouring the point, some quick tips:
 
 ## Servicing the printer
 
-Thus section is specific to [the Ultimaker 2+ printer](https://ultimaker.com/en/products/ultimaker-2-plus) the library currently has. 
+This section is specific to (the Ultimaker 2+ printer)[https://ultimaker.com/en/products/ultimaker-2-plus] the library currently has. 
 
 ### Changing colour
 You start the filament changing process by selecting it in the menu. 
 It is very easy, but also documented on
-[https://ultimaker.com/en/resources/21476-how-to-insert-filament]
+<https://ultimaker.com/en/resources/21476-how-to-insert-filament>
 
 
 ### Printer problems
-[https://ultimaker.com/en/resources/18767-unboxing]
+<https://ultimaker.com/en/resources/18767-unboxing>
 has a "troubleshooter" section. 
 However, talk to the library if you have serious issues. 
 
