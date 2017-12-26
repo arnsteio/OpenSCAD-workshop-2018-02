@@ -9,15 +9,18 @@ objectives:
 - "Workflow tools"
 ---
 # Intro to 3d design and 3D printing
+
+1. [The 3D design process](#the-3d-design-process)
+2. [Why OpenSCAD](#why-openscad)
+3. [Tools of the trade](#tools-of-the-trade)
+
 ## Before we start:
 - Does everyone have OpenSCAD installed?
 - And Cura?
 
-## 3D design
+## The 3D design process
 Imagine a wizard, who is able to conjure up things purely by holding them in his mind and making them physical by willpower alone. 
 Designing 3D objects is a bit like that - we describe our objects with code and maths, and make them physical.
-
-## The design process
 
 1. You start with an __idea for a thing__ - something you want to make.
 2. You __make a digital model__ of that thing. The digital model can be in any of a number of formats - in this course we use OpenSCAD.
