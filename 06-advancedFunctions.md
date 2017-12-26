@@ -83,5 +83,5 @@ TestNumber = 5; // This sets the variable "TestNumber" to 5
 echo("My number is:");
 echo(TestNumber);
 // This sort of works:
-echo("My number is:", TestNumber);
+echo(str("My number is:", TestNumber));
 ~~~
