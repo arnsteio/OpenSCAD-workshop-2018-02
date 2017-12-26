@@ -7,12 +7,12 @@ Let's build a pet cage clip!
 cube([60, 10, 15], center=false);
 cube([10, 60, 15], center=false);
 ~~~
-
+Or, we can do
 ~~~
 cube([60, 10, 15], center=false);
 translate([60, 0, 0]) rotate([0,0,90]) cube([60, 10, 15], center=false);
 ~~~
-
+which does the same in a different way. 
 Things are going swell, however fate - in the guise of your friend Kari - intervenes with a phone call:
 
 >*- Hi, are you still making that pet cage clip for your hamster?*
@@ -27,7 +27,8 @@ Things are going swell, however fate - in the guise of your friend Kari - interv
 >
 > OK, I'll bring it to Uni on friday :-)
 
-So we'll make a more generic solution. Let's start by defining what we know:
+So we need to make a more generic solution. 
+Let's start by defining what we know:
 
 ~~~
 /* [Global] */ 
