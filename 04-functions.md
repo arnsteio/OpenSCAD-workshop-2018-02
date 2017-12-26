@@ -135,4 +135,4 @@ To fix this we can do one of three things:
 
 We will follow possibility 3 :-)
 
-[Next slide](05-trigonometry_and_loops.md)
+[Next slide](05-trigonometry_loops_conditionals.md)
