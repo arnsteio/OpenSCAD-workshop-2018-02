@@ -38,8 +38,8 @@ Some of the problems include:
 
 - Manufacturing energy needs are large.
 - We use a lot of material for support and other non-essential parts of builds. This uses excess material and energy. 
-- Our plastic is sourced from non-renewable sources, and never breaks down but ends up as micro particles in our seas.
-- Home owned printers are utilised little, leading the manufacturing footprint to be a large part of the total environmental impact.
+- Our plastic is sometimes sourced from non-renewable sources, and never breaks down but ends up as micro particles in our seas.
+- Home owned printers are utilised little, leading the manufacturing footprint of the machine  be a large part of the total environmental impact.
 - The printing process can make harmful fumes.
 - Filament is not food safe but sometimes used for cutlery. Even using food safe filament the printing process produces layered cracks in which bacteria thrive. 
 
@@ -53,6 +53,8 @@ Without belabouring the point, some quick tips:
 - Make hollow parts, and use little infill in massive parts
 - Common printers like the one in the library is a good idea environmentally. 
 - Depending on print technology, printing several parts at once might cut down on energy use (this is not true for the Library machine).
+
+<https://sustainabilityworkshop.autodesk.com/blog/environmental-impacts-3d-printing> has more on these issues.
 
 ## Servicing the printer
 
