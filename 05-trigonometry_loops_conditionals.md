@@ -68,7 +68,8 @@ module clip()
         difference()
             {
             angle(clip_length, clip_width, clip_height, clip_angle);
-            translate([-((clip_width/2)-(bar_width/2))*tan(clip_angle/2),(clip_width/2)-(bar_width/2),clip_height-bar_insertion_depth+error]) angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
+            translate([-((clip_width/2)-(bar_width/2))*tan(clip_angle/2),(clip_width/2)-(bar_width/2),clip_height-bar_insertion_depth+error]) 
+		angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
             }
     }
 
@@ -76,6 +77,53 @@ clip();
 ~~~
 
 To get better visualization we move the cut-out up a miniscule amount, hence the "error" variable.
+
+## Conditionals
+
+I sometimes like to mark my things, let's do that here too.
+
+Text length is dependent on text size, fonts and simply what letters you choose so I don't like to make hard requirements around it. 
+However, a message when text might be too long could be nice.  
+
+~~~
+/* [Global] */
+clip_length=50;
+clip_width=10;
+clip_height=15;
+clip_angle=60; // Vary this to see if it works!
+
+bar_width=4;
+bar_insertion_depth=6;
+
+text="Arnsteio";
+
+/* [Hidden] */
+error = 0.01;
+
+module angle(length, width, height, angle)
+    {
+        cube([length, width, height], center=false);
+        translate([length, 0, 0]) rotate([0,0,angle]) cube([length, width, height], center=false);
+    }
+
+module clip()
+    {
+        difference()
+            {
+            angle(clip_length, clip_width, clip_height, clip_angle);
+            translate([-((clip_width/2)-(bar_width/2))*tan(clip_angle/2),(clip_width/2)-(bar_width/2),clip_height-bar_insertion_depth+error]) 
+                angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
+            if ( len(text) > (clip_length/10) ) 
+			{
+				echo("Text length might be too long for the length of your clip!");
+			}
+            translate([1,0.5,1]) rotate([90,0,0])  linear_extrude(1) text(text, size = clip_height*0.9);
+            }
+    }
+
+clip();
+~~~
+
 
 That is our clip pretty much done! The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - make it easy to make any clip you would want. 
 
@@ -91,43 +139,5 @@ for (number = [0:6]) {
     }
 ~~~
 
-## Recursion
-FIXME; this doesn't actually work.
-
-~~~
-/* [Global] */
-clip_length=50;
-clip_width=10;
-clip_height=15;
-clip_angle=60; // Vary this to see if it works!
-
-bar_width=4;
-bar_insertion_depth=6;
-
-/* [Hidden] */
-error = 0.01; 
-
-module angle(length, width, height, angle)
-    {
-        cube([length, width, height], center=false);
-        translate([length, 0, 0]) rotate([0,0,angle]) cube([length, width, height], center=false);
-    }
-
-module roundclip(number)
-    {
-           if (number>0) {  
-             echo("My roundclip-initializing number is:", number);
-            difference()
-                {
-                angle(clip_length, clip_width, clip_height, clip_angle);
-                translate([-((clip_width/2)-(bar_width/2))*tan(clip_angle/2),(clip_width/2)-(bar_width/2),clip_height-bar_insertion_depth+error]) angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
-                number=number-1;
-                    translate([clip_length, 0, 0]) rotate([0,0,clip_angle]) translate([clip_length, 0, 0]) roundclip(number);
-                }
-            }
-    }
-
-roundclip(360/clip_angle);
-~~~
 
 [Next slide](06-advancedFunctions.md)
