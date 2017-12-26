@@ -152,4 +152,4 @@ Learning outcomes:
 - Able to design models with OpenSCAD
 - Able to print models on extruders
 
-[Next slide](04-functions.md)
+[Next slide](04-modules.md)
