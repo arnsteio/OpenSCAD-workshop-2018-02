@@ -13,6 +13,13 @@ keypoints:
 ---
 
 # Basic OpenSCAD operations
+1. [Shapes](#shapes)
+2. [Constructive Solid Geometry operations](#Constructive-Solid-Geometry-operations)
+1. [Transformationss](#transformations)
+1. [Documentation and learning resources](#Documentation-and-learning-resources)
+
+
+
 OpenSCAD is a very powerful language and we cannot cover everything. 
 I will just cover a few commands, and usually just the way I usually use it, not all ways it can be used. 
 If you encounter code you don't understand, check out the [manual](http://www.openscad.org/cheatsheet/).
