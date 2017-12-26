@@ -28,6 +28,10 @@ I almost always use 0.15mm layer height, which is quite thick.
 
 ### Infill
 
+Less infill means faster, cheaper prints. 
+You can get by with surprisingly little.
+Even on high-tension parts like slingshots I never use more than 25%.  
+
 ## The environment
 
 I firmly belive 3D printing can come to have a positive environmental effect on how we make things.
@@ -58,32 +62,39 @@ Without belabouring the point, some quick tips:
 
 ## Servicing the printer
 
-This section is specific to (the Ultimaker 2+ printer)[https://ultimaker.com/en/products/ultimaker-2-plus] the library currently has. 
+This section is specific to [the Ultimaker 2+ printer](https://ultimaker.com/en/products/ultimaker-2-plus) the library currently has. 
 
 ### Changing colour
 You start the filament changing process by selecting it in the menu. 
 It is very easy, but also documented on
 <https://ultimaker.com/en/resources/21476-how-to-insert-filament>
 
-
 ### Printer problems
-<https://ultimaker.com/en/resources/18767-unboxing>
-has a "troubleshooter" section. 
+<https://ultimaker.com/en/resources/18767-unboxing> has a "troubleshooter" section. 
 However, talk to the library if you have serious issues. 
 
-## Model problems
-
+## Model or printing problems
 Designing models is an iterative process.
 You often go several rounds with test prints before you are happy with what you have made. 
 
-#### Lack of support
+### Lack of support
+Several models either require you to design supports, or make use of in-built support functions in the slicing software. 
+A lack of sufficient supports usually botches the print. 
 
-#### Thin walls
+### Thin walls
+If your walls are thinner than your print head they will not print. 
 
-#### Gcode errors
+### Several simultaneous builds
+Imagine you print two spires side by side.
+As the print head travels back and forth between them it will be trailed by remains of filament.
+Additionally, if one fails (e.g. because the raft fails to attach the print to the build print) it will usually cause the other one to fail as well.
+Though it takes more time it is usually better to print one part at a time. 
 
+### Gcode errors
 I have had Cura turn fine STL files into Gcode files where some of the layers are skewed on a couple of occasions.
 If that happens, simply make a new Gcode in exactly the same way.
 Chances are, the next file will be fine.
 
 [Next slide](03-basicOpenSCAD.md)
+
+
