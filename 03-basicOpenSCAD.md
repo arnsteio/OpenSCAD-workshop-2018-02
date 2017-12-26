@@ -14,9 +14,9 @@ keypoints:
 
 # Basic OpenSCAD operations
 1. [Shapes](#shapes)
-2. [Constructive Solid Geometry operations](#Constructive-Solid-Geometry-operations)
+2. [Constructive Solid Geometry operations](#constructive-solid-geometry-operations)
 1. [Transformationss](#transformations)
-1. [Documentation and learning resources](#Documentation-and-learning-resources)
+1. [Documentation and learning resources](#documentation-and-learning-resources)
 
 
 
