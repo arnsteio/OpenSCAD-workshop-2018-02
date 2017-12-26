@@ -1,5 +1,11 @@
 # 3D printing
 
+# Table of Contents
+1. [Slicing software variables](#Slicing)
+2. [The environment](#The)
+3. [Servicing the printer](#Servicing)
+4. [Model or printing problems](#Model or printing problems)
+
 ## Slicing software variables
 
 ### Raft
