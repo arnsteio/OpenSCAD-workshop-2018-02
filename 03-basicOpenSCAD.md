@@ -139,17 +139,4 @@ I have occasionally gotten important insights looking at other people's code, e.
 >>~~~
 >>The "$fn" variable decides the number of fragments in a circle. Keep it below 50 for design work; when finalizing your model you can increase it to get a smooth design.
 
----
-
-Subjects covered:
-- Writing OpenSCAD code
-- Getting others’ code, sharing your code
-- Exporting and importing from STL
-- Preparing STLs for printing with Cura
-- Printing on Ultimaker 2+ extruder printer
-
-Learning outcomes:
-- Able to design models with OpenSCAD
-- Able to print models on extruders
-
 [Next slide](04-modules.md)
