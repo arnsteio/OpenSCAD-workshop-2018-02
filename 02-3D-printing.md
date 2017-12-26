@@ -1,6 +1,5 @@
 # 3D printing
 
-# Table of Contents
 1. [Slicing software variables](#slicing-software-variables)
 2. [The environment](#the-environment)
 3. [Servicing the printer](#servicing-the-printer)
