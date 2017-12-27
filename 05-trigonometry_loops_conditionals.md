@@ -1,3 +1,8 @@
+#Trigonometry, conditionals and 
+1. [Trigonometry](#trigonometry)
+2. [Conditionals](#conditionals)
+3. [Loops](#loops)
+
 ## Trigonometry
 
 We have found it necessary to do some triginometry.
@@ -9,7 +14,7 @@ For our example, we need to find the correct angle:
 Understanding what length we need, and finding the length of the corresponding relevant side:
 ![alt text](bilder/trig02.png "Understanding what length we need, and finding the length of the corresponding relevant side")
 
-Using trignometry to find the relevant side:
+Using trignometry to find the relevant side
 ![alt text](bilder/trig03.png "Using trignometry to find the relevant side")
 
 Cheking with another example to see if this is a generic solution:
