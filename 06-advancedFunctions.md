@@ -1,4 +1,7 @@
 # Miscellaneous other functions
+1. [The Incredibly useful Hull()](#the-incredibly-useful-hull())
+2. [Fast modelling  of rotational objects](#fast-modelling-of-rotational-objects)
+3. [Rounded squares](#rounded-squares)
 
 ## The incredibly useful Hull()
 
@@ -37,7 +40,7 @@ hull() {
 ~~~
 
 
-## Low $fn for fast modelling of roundish objects
+## Fast modelling of rotational objects
 ~~~
 /* This demonstrates an easy way to model 6-sided towers
 The code makes a 6-sided spire with a perfectly round hole ("window") in it. 
@@ -55,7 +58,7 @@ width=20;
             }
 ~~~
 
-## Rounded squares - the Minkowski way
+## Rounded squares
 
 minkowski() does the [Minkowski sum](https://doc.cgal.org/latest/Minkowski_sum_3/) of child nodes. 
 
