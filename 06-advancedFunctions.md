@@ -2,6 +2,7 @@
 1. [The Incredibly useful Hull()](#the-incredibly-useful-hull())
 2. [Fast modelling  of rotational objects](#fast-modelling-of-rotational-objects)
 3. [Rounded boxes](#rounded-boxes)
+4. [STL import](#stl-import)
 
 ## The incredibly useful Hull()
 
@@ -81,16 +82,4 @@ sphere(r=2);
 ## STL import 
 ~~~
 import("myfile.stl")
-~~~
-
-## Output to console window
-I'm not done with this.
-~~~
-TestNumber = 5; // This sets the variable "TestNumber" to 5
-
-// Output a string and the value of "TestNumber":
-echo("My number is:");
-echo(TestNumber);
-// This sort of works:
-echo(str("My number is:", TestNumber));
 ~~~
