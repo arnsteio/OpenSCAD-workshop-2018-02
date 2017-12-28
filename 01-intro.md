@@ -8,7 +8,15 @@ objectives:
 - "Understand the benefits of reusing code."
 - "Workflow tools"
 ---
-# Intro to 3d design and 3D printing
+# Course content:
+[01 - Intro](01-intro.md)
+[02 - 3D-printing](02-3D-printing.md)
+[03 - Basic OpenSCAD](03-basicOpenSCAD.md)
+[04 - Modules](04-modules.md)
+[05 - Trigonometry, conditionals and loops](05-trigonometry_conditionals_loops.md)
+[06 - Advanced Functions](06-advancedFunctions.md)
+
+# Intro to 3D design and 3D printing
 
 1. [The 3D design process](#the-3d-design-process)
 2. [Why OpenSCAD](#why-openscad)
