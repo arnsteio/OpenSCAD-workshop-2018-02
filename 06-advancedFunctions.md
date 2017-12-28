@@ -1,7 +1,7 @@
 # Miscellaneous other functions
 1. [The Incredibly useful Hull()](#the-incredibly-useful-hull())
 2. [Fast modelling  of rotational objects](#fast-modelling-of-rotational-objects)
-3. [Rounded squares](#rounded-squares)
+3. [Rounded boxes](#rounded-boxes)
 
 ## The incredibly useful Hull()
 
@@ -58,9 +58,9 @@ width=20;
             }
 ~~~
 
-## Rounded squares
+## Rounded boxes
 
-minkowski() does the [Minkowski sum](https://doc.cgal.org/latest/Minkowski_sum_3/) of child nodes. 
+minkowski() does the [Minkowski sum](https://doc.cgal.org/latest/Minkowski_sum_3/) of child nodes - it adds all the constituent vectors together.
 
 ![alt text](bilder/minkowski_spoon_star.png "The Minkowski sum of a spoon and a star.")
 
@@ -69,6 +69,7 @@ The Minkowski sum of a spoon and a star. Picture by Peter Hachenberger.
 ~~~
 // Try doing the minkowski sum on this example 
 // by removing the commenting ahead of "minkowski()"!
+// It is a very fast method of making a rounded box.
 $fn=150;
 //minkowski()
 {
