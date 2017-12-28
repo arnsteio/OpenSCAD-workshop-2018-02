@@ -1,5 +1,7 @@
 # 3D printing
 
+This section is a demo section where I show export to STL, import to Cura, export to Gcode and start a print. While doing this I discuss the following:
+
 1. [Slicing software variables](#slicing-software-variables)
 2. [The environment](#the-environment)
 3. [Servicing the printer](#servicing-the-printer)
@@ -48,7 +50,7 @@ Some of the problems include:
 - Manufacturing energy needs are large.
 - We use a lot of material for support and other non-essential parts of builds. This uses excess material and energy. 
 - Our plastic is sometimes sourced from non-renewable sources, and never breaks down but ends up as micro particles in our seas.
-- Home owned printers are utilised little, leading the manufacturing footprint of the machine  be a large part of the total environmental impact.
+- Home owned printers are utilised little, leading the manufacturing footprint of the machine to be  a large part of the total environmental impact.
 - The printing process can make harmful fumes.
 - Filament is not food safe but sometimes used for cutlery. Even using food safe filament the printing process produces layered cracks in which bacteria thrive. 
 
@@ -88,11 +90,12 @@ A lack of sufficient supports usually botches the print.
 
 ### Thin walls
 If your walls are thinner than your print head they will not print. 
+And if they _just_ print they might be too thin for stability.
 
 ### Several simultaneous builds
 Imagine you print two spires side by side.
-As the print head travels back and forth between them it will be trailed by remains of filament.
-Additionally, if one fails (e.g. because the raft fails to attach the print to the build print) it will usually cause the other one to fail as well.
+As the print head travels back and forth between them it will be trailed by remains of filament, making the build less accurate.
+Additionally, if one fails (e.g. because the raft fails to attach the print to the build plate) it will usually cause the other one to fail as well.
 Though it takes more time it is usually better to print one part at a time. 
 
 ### Gcode errors
@@ -101,5 +104,3 @@ If that happens, simply make a new Gcode in exactly the same way.
 Chances are, the next file will be fine.
 
 [Next slide](03-basicOpenSCAD.md)
-
-
