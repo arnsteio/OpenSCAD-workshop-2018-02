@@ -78,6 +78,11 @@ sphere(r=2);
 }
 ~~~
 
+## STL import 
+~~~
+import("myfile.stl")
+~~~
+
 ## Output to console window
 I'm not done with this.
 ~~~
