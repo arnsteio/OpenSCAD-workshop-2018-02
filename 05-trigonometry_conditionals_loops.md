@@ -1,4 +1,4 @@
-#Trigonometry, conditionals and 
+Trigonometry, conditionals and loops
 1. [Trigonometry](#trigonometry)
 2. [Conditionals](#conditionals)
 3. [Loops](#loops)
