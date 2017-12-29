@@ -186,9 +186,8 @@ module clip()
 clip();
 ~~~
 
-But - what if you would like to print 6 of these clips? Let's look at loops.
-
 ## Loops
+So what if you would like to print 6 of these clips? Let's look at loops.
 This example is of course construed, but loops are frequently very useful. 
 
 ~~~
