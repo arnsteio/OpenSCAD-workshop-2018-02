@@ -103,4 +103,5 @@ I have had Cura turn fine STL files into Gcode files where some of the layers ar
 If that happens, simply make a new Gcode in exactly the same way.
 Chances are, the next file will be fine.
 
+[Previous slide](01-intro.md)
 [Next slide](03-basicOpenSCAD.md)

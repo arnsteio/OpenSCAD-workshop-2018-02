@@ -83,3 +83,4 @@ sphere(r=2);
 ~~~
 import("myfile.stl")
 ~~~
+[Previous slide](05-trigonometry_conditionals_loops.md)

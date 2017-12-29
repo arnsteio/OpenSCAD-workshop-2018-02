@@ -139,4 +139,5 @@ I have occasionally gotten important insights looking at other people's code, e.
 >>~~~
 >>The "$fn" variable decides the number of fragments in a circle. Keep it below 50 for design work; when finalizing your model you can increase it to get a smooth design.
 
+[Previous slide](02-3D-printing.md)
 [Next slide](04-modules.md)

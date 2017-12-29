@@ -136,4 +136,5 @@ To fix this we can do one of three things:
 
 We will follow possibility 3 :-)
 
+[Previous slide](03-basicOpenSCAD.md)
 [Next slide](05-trigonometry_conditionals_loops.md)

@@ -77,4 +77,5 @@ The ["Japanese hirajiro castle"](https://www.thingiverse.com/thing:16862) reuses
   * Plier, also useful to remove  supports
   * File or sand paper to clean prints
 
+[Previous slide](README.md)
 [Next slide](02-3D-printing.md)
