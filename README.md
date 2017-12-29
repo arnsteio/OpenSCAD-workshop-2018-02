@@ -25,6 +25,14 @@ Learning outcomes:
 - Able to design models with OpenSCAD
 - Able to print models on extruders
 
+# Course content:
+1. [Intro](01-intro.md)
+2. [3D-printing](02-3D-printing.md)
+3. [Basic OpenSCAD](03-basicOpenSCAD.md)
+4. [Modules](04-modules.md)
+5. [Trigonometry, conditionals and loops](05-trigonometry_conditionals_loops.md)
+6. [Advanced Functions](06-advancedFunctions.md)
+
 Target audience: Attendees should have some experience with writing formatted text (html, XML, LaTeX or even the command line). Programming experience is unnecessary.  
 
 Number of attendees: 20 unless I get helpers, 40 if I do.  
