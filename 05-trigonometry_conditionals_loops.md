@@ -191,6 +191,7 @@ So what if you would like to print 6 of these clips? Let's look at loops.
 This example is of course construed, but loops are frequently very useful. 
 
 ~~~
+// Exchange last line wiith this:
 for (number = [0:6]) {
    translate([clip_length*2*number, 0, 0])
     clip();
