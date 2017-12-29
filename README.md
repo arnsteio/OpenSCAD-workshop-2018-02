@@ -31,7 +31,7 @@ Learning outcomes:
 3. [Basic OpenSCAD](03-basicOpenSCAD.md)
 4. [Modules](04-modules.md)
 5. [Trigonometry, conditionals and loops](05-trigonometry_conditionals_loops.md)
-6. [Advanced Functions](06-advancedFunctions.md)
+6. [Miscellaneous Functions](06-miscellaneousFunctions.md)
 
 Target audience: Attendees should have some experience with writing formatted text (html, XML, LaTeX or even the command line). Programming experience is unnecessary.  
 
