@@ -130,8 +130,8 @@ clip();
 ~~~
 
 
-That is our clip pretty much done! The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - make it easy to make any clip you would want. 
-
+That is our clip pretty much done! 
+The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - make it easy to make any clip you would want. 
 
 ### Solid vs hollow
 Designed solid, like this, the clip uses 0.74m of filament (build time 43 minutes) if printed with 5% infill and no raft. 
@@ -140,58 +140,14 @@ The primary reason besides the raft and support waste is that the shell needs to
 However, small things matter. 
 If we dropped the writing we could use thinner walls, and if we in addition could design the clip without end walls, we might come out on top. 
 If we also did the work to design optimal build supports we almost certainly would. 
-
-This is the hollow version of the clip (struggling with X placement, need to revisit):
-~~~
-/* [Global] */
-clip_length=50;
-clip_width=10;
-clip_height=15;
-clip_angle=60; // Vary this to see if it works!
-
-bar_width=4;
-bar_insertion_depth=6;
-
-text="Arnsteio";
-
-/* [Hidden] */
-error = 0.01;
-
-module angle(length, width, height, angle)
-    {
-        cube([length, width, height], center=false);
-        translate([length, 0, 0]) rotate([0,0,angle]) cube([length, width, height], center=false);
-    }
-
-module clip()
-    {
-        difference()
-            {
-            angle(clip_length, clip_width, clip_height, clip_angle);
-            translate([-((clip_width/2)-(bar_width/2))*tan(clip_angle/2),(clip_width/2)-(bar_width/2),clip_height-bar_insertion_depth+error])
-                angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
-	    	// Making the cutout.
-		// length is 2mm shorter to have 1mm end walls.
-		// width is 3mm less as the writing cuts 0.5mm into the wall
-		// height is chosen so that the "roof" is 1mm thick:	
-            translate([1.5*tan(clip_angle/2),1.5, 0])angle(clip_length-2, clip_width-3, clip_height-1-bar_insertion_depth, clip_angle);
-            if ( len(text) > (clip_length/10) )
-                        {
-                                echo("Text length might be too long for the length of your clip!");
-                        }
-            translate([1,0.5,1]) rotate([90,0,0])  linear_extrude(1) text(text, size = clip_height*0.9);
-            }
-    }
-
-clip();
-~~~
+We shall leave this as an exercise for the interested reader :-)
 
 ## Loops
-So what if you would like to print 6 of these clips? Let's look at loops.
+What if you would like to print 6 of these clips? Let's look at loops.
 This example is of course construed, but loops are frequently very useful. 
 
 ~~~
-// Exchange last line wiith this:
+// Exchange last line with this:
 for (number = [0:6]) {
    translate([clip_length*2*number, 0, 0])
     clip();
