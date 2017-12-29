@@ -139,7 +139,7 @@ However, small things matter.
 If we dropped the writing we could use thinner walls, and if we in addition could design the clip without end walls, we might come out on top. 
 If we also did the work to design optimal build supports we almost certainly would. 
 
-This is the hollow version of the clip, though x placement isn't really correct. I might take this out.
+This is the hollow version of the clip (struggling with X placement, need to revisit):
 ~~~
 /* [Global] */
 clip_length=50;
@@ -166,13 +166,17 @@ module clip()
         difference()
             {
             angle(clip_length, clip_width, clip_height, clip_angle);
-            translate([-((clip_width/2)-(bar_width/2))*tan(clip_angle/2),(clip_width/2)-(bar_width/2),clip_height-bar_insertion_depth+error]) 
+            translate([-((clip_width/2)-(bar_width/2))*tan(clip_angle/2),(clip_width/2)-(bar_width/2),clip_height-bar_insertion_depth+error])
                 angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
-            translate([1.5,1.5, 0])angle(clip_length-2, clip_width-3, clip_height-1-bar_insertion_depth, clip_angle);
-            if ( len(text) > (clip_length/10) ) 
-			{
-				echo("Text length might be too long for the length of your clip!");
-			}
+	    	// Making the cutout.
+		// length is 2mm shorter to have 1mm end walls.
+		// width is 3mm less as the writing cuts 0.5mm into the wall
+		// height is chosen so that the "roof" is 1mm thick:	
+            translate([1.5*tan(clip_angle/2),1.5, 0])angle(clip_length-2, clip_width-3, clip_height-1-bar_insertion_depth, clip_angle);
+            if ( len(text) > (clip_length/10) )
+                        {
+                                echo("Text length might be too long for the length of your clip!");
+                        }
             translate([1,0.5,1]) rotate([90,0,0])  linear_extrude(1) text(text, size = clip_height*0.9);
             }
     }
