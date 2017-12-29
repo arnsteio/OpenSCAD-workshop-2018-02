@@ -132,6 +132,8 @@ clip();
 
 That is our clip pretty much done! The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - make it easy to make any clip you would want. 
 
+
+### Solid vs hollow
 Designed solid, like this, the clip uses 0.74m of filament (build time 43 minutes) if printed with 5% infill and no raft. 
 It uses 0.99m of filament (1 hour 6 minutes build time) if designed hollow and printed with 5% infill, support and a raft. 
 The primary reason besides the raft and support waste is that the shell needs to be almost 1mm to be strong enough, and a more complex shape has more shell.
