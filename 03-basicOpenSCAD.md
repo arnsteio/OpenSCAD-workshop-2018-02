@@ -120,12 +120,12 @@ translate([-20, 0, 0]) rotate([45, 0, 0]) cube(15, center=true);
 ~~~
 
 ## Documentation and learning resources
-The most important resource on the net is IMO the OpenSCAD cheat sheet, at [http://www.openscad.org/cheatsheet/]. 
+The most important resource on the net is IMO the OpenSCAD cheat sheet, at <http://www.openscad.org/cheatsheet/>. 
 It is hyperlinked to the on-line manual.
 It documents, among other things, several more transformations. 
 I _always_ have this open when I model.
 
-I have occasionally gotten important insights looking at other people's code, e.g. code published at [https://www.thingiverse.com/].
+I have occasionally gotten important insights looking at other people's code, e.g. code published at <https://www.thingiverse.com/>.
 
 ### Try it out
 > Excercise: How can you make a flattened sphere with a hole in the middle?
