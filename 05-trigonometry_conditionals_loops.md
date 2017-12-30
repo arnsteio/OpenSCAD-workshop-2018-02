@@ -6,7 +6,9 @@ Trigonometry, conditionals and loops
 ## Trigonometry
 
 We have found it necessary to do some triginometry.
-Luckily, [Wikipedia](https://en.wikipedia.org/) has a good section on [trigonometry](https://en.wikipedia.org/wiki/Trigonometric_functions).
+Luckily, [Wikipedia](https://en.wikipedia.org/) has a good section on [trigonometry](https://en.wikipedia.org/wiki/Trigonometric_functions), and we will use that.
+When you want to use trigonometry to make rounded or flowing shapes, an interactive graphing calculator like [Geogebra](https://www.geogebra.org/classic) is helpful.
+We will not need that today. 
 
 For our example, we need to find the correct angle:
 ![alt text](bilder/trig01.png "Finding the correct angle")
