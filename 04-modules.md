@@ -44,7 +44,10 @@ clip_angle=60;
 	translate([clip_length, 0, 0]) rotate([0,0,clip_angle]) cube([clip_length,clip_width,clip_height], center=false);
 ~~~
 
-This works, and is pretty generic. But we need to make the cutout for the bar, and reusing that code would be perfect. We make a _module_ out of the code we have:
+This works, and is pretty generic. But we need to make the cutout for the bar, and reusing that code would be perfect. 
+We will make a _module_ out of the code we have.
+A module will make it easy to use our self-written code just like we use e.g. the internal module "cube".
+We will make it so that the module isn't dependent on outside variables - that way we can also reuse it in other projects. 
 
 ~~~
 /* [Global] */ 
@@ -131,10 +134,10 @@ Uh - that works for the Y axis, bit the X axis is off.
 To fix this we can do one of three things:
 
 1. Try several numbers to find one that works. Nothing wrong with that, although the solution will not be generic.
-2. Design the clip in a way that works around that problem. That's absolutely doable.
+2. Design the clip in a way that works around that problem. That's easy (in fact our design process was deliberately faulty to land us in this spot ;-)
 3. Do some trigonometry to make a generic solution that works without a redesign. 
 
-We will follow possibility 3 :-)
+We will solve this problem in the hardest way possible :-)
 
 [Previous slide](03-basicOpenSCAD.md)
 [Next slide](05-trigonometry_conditionals_loops.md)
