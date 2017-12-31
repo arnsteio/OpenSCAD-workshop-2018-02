@@ -3,6 +3,7 @@
 2. [Fast modelling  of rotational objects](#fast-modelling-of-rotational-objects)
 3. [Rounded boxes](#rounded-boxes)
 4. [STL import](#stl-import)
+5. [Including libraries](#including-libraries)
 
 ## The incredibly useful Hull()
 
@@ -83,4 +84,17 @@ sphere(r=2);
 ~~~
 import("myfile.stl")
 ~~~
+
+## Including libraries
+If you consider e.g. the customizable Klein bottle at <https://www.thingiverse.com/thing:2170953>, it is made possible by heavy use of bezier curves. 
+Instead of reimplementing them from scratch the author imports a bezier library he has published previously.
+It is a good idea both to use published libraries and write your own ones. 
+~~~
+//Gael Lafond's example:
+
+// Require the bezier library:
+//   http://www.thingiverse.com/thing:2170645
+include <bezier.scad>
+~~~
+
 [Previous slide](05-trigonometry_conditionals_loops.md)
