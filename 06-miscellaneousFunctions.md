@@ -88,7 +88,7 @@ import("myfile.stl")
 ## Including libraries
 If you consider e.g. the customizable Klein bottle at <https://www.thingiverse.com/thing:2170953>, it is made possible by heavy use of bezier curves. 
 Instead of reimplementing them from scratch the author imports a bezier library he has published previously.
-We can use his library to make e.g. the beginnings of a minaret:
+We can use his library <bezier.scad> to make e.g. the beginnings of a minaret:
 ~~~
 // Requires the bezier library by Gael Lafond:
 //   http://www.thingiverse.com/thing:2170645
