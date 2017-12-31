@@ -88,13 +88,20 @@ import("myfile.stl")
 ## Including libraries
 If you consider e.g. the customizable Klein bottle at <https://www.thingiverse.com/thing:2170953>, it is made possible by heavy use of bezier curves. 
 Instead of reimplementing them from scratch the author imports a bezier library he has published previously.
-It is a good idea both to use published libraries and write your own ones. 
+We can use his library to make e.g. the beginnings of a minaret:
 ~~~
-//Gael Lafond's example:
-
-// Require the bezier library:
+// Requires the bezier library by Gael Lafond:
 //   http://www.thingiverse.com/thing:2170645
-include <bezier.scad>
+
+include <bezier.scad>;
+resolution = 100;
+
+rotate_extrude(angle = 180, $fn = resolution)
+        BezPolygon([
+		[[0, 0],[0, 0],[0, 0],[0, 0]],
+		[[-50, 0],[-50, 30],[0, 35],[0, 60]]
+	], resolution);
 ~~~
+![alt text](bilder/halfKleinBottleByGaelLafond.jpg "Half of the Klein bottle, by Gael Lafond")
 
 [Previous slide](05-trigonometry_conditionals_loops.md)
