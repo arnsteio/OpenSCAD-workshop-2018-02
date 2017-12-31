@@ -103,5 +103,6 @@ rotate_extrude(angle = 180, $fn = resolution)
 	], resolution);
 ~~~
 ![alt text](bilder/halfKleinBottleByGaelLafond.jpg "Half of the Klein bottle, by Gael Lafond")
+*Half of the Klein bottle, by Gael Lafond*
 
 [Previous slide](05-trigonometry_conditionals_loops.md)
