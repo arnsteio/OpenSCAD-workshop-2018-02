@@ -1,6 +1,7 @@
 # 3D printing
 
-This section is a demo section where I show export to STL, import to Cura, export to Gcode and start a print. While doing this I discuss the following:
+This section is a demo section where I show export to STL, import to Cura, export to Gcode and start a print. 
+While doing this I discuss the following, usually based on a failed 3D-print I have brough:
 
 1. [Slicing software variables](#slicing-software-variables)
 2. [The environment](#the-environment)
@@ -13,7 +14,7 @@ This section is a demo section where I show export to STL, import to Cura, expor
 
 A raft attaches your print to the build plate, improves stability and makes sure the bottom layer of your build goes smoothly even if it is irregular in shape. 
 Unless I am absolutely sure I don't need to, I always use it.
-If your model is well grounded to the build plate you could still benefit from a narrow raft.
+If your model is well grounded to the build plate but has a complex bottom layer you could consider using only a narrow raft.
 
 ### Support
 
@@ -39,12 +40,12 @@ I almost always use 0.15mm layer height, which is quite thick.
 
 Less infill means faster, cheaper prints. 
 You can get by with surprisingly little.
-Even on high-tension parts like slingshots I never use more than 25% and I usually go with 5% for non-high-tension parts.
+Even on high-tension parts like slingshots I never use more than 25%, and I usually go with 5% for non-high-tension parts.
 
 ### Shell
 
 Unless you go with 100% infill the thickness of your shell is important.
-As always, thinner is faster and cheaper, but too thin gets too flimsey.
+As always, thinner is faster and cheaper, but too thin gets too flimsy.
 I usually use 1mm for high-tension parts (in practice 0.8mm-0.9mm because of print head size and layer height) 
 and whatever Cura suggests for other parts (in theory 0.7mm, which in practice means down to 0.4mm).
 
