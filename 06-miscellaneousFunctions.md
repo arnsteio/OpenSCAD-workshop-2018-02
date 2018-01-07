@@ -4,7 +4,6 @@
 3. [Rounded boxes](#rounded-boxes)
 4. [STL import](#stl-import)
 5. [Including libraries](#including-libraries)
-6. [Functions] (#functions)
 
 ## The incredibly useful Hull()
 
@@ -105,8 +104,5 @@ rotate_extrude($fn = resolution)
 ~~~
 ![alt text](bilder/halfKleinBottleByGaelLafond.jpg "Half of the Klein bottle, by Gael Lafond")
 *Half of the Klein bottle, by Gael Lafond*
-
-## Functions
-
 
 [Previous slide](05-trigonometry_conditionals_loops.md)

@@ -133,7 +133,9 @@ clip();
 
 
 That is our clip pretty much done! 
-The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - make it easy to make any clip you would want. 
+We can export it to STL now, and prepare it for printing with Cura. 
+Or publish it om <http://www.thingiverse.com>.
+The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - makes it easy for anyone to make any clip they would want. 
 
 ### Solid vs hollow
 It is almost always better to design hollow rather than solid.

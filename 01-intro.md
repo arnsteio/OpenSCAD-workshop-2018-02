@@ -45,7 +45,7 @@ Parts can often be reused several times in different ways in the same or other d
 And for the die-hard programmer, OpenSCAD is easy to use with version control systems.
 
 OpenSCAD is unsuited for 3D objects that are ment to be seen rather than printed - like movies (see e.g. <http://www.youtube.com/watch?v=JE1zgCftocc>) or 3D scenes. 
-This requires a whole different set of tools, tools that, on the other hand, often makes 3D shapes that cannot be printed because of problems in the geometry. 
+This requires a whole different set of tools, tools that, on the other hand, often makes 3D shapes that cannot easily be printed because of problems in the geometry. 
 They will often turn out to have holes or other problems.
 
 ### Parametric design
