@@ -27,6 +27,13 @@ Learning outcomes:
 - Able to design models with OpenSCAD
 - Able to print models on extruders
 
+Target audience: 
+Attendees should have experience with writing formatted text (html, XML, LaTeX or even the command line). 
+Programming experience is helpful but not necessary.  
+We will do some maths (rotational objects and trigonometry), having high school math (1. klasse videregående) will help understanding.
+
+Number of attendees: 30
+
 # Course content:
 1. [Intro](01-intro.md)
 2. [3D-printing](02-3D-printing.md)
@@ -34,13 +41,6 @@ Learning outcomes:
 4. [Modules](04-modules.md)
 5. [Trigonometry, conditionals and loops](05-trigonometry_conditionals_loops.md)
 6. [Miscellaneous Functions](06-miscellaneousFunctions.md)
-
-Target audience: 
-Attendees should have experience with writing formatted text (html, XML, LaTeX or even the command line). 
-Programming experience is helpful but not necessary.  
-We will do some maths (rotational objects and trigonometry), having high school math (1. klasse videregående) will help understanding.
-
-Number of attendees: 30
 
 Need a room close to Bjørnehjørnet (for closeness to the 3D printer), need the 3D printer itself booked for the day in the library system, wifi, power, a screen to present on.
 
