@@ -33,6 +33,9 @@ clip_angle=60; // Vary this to see if it works!
 bar_width=4;
 bar_insertion_depth=6;
 
+/* [Hidden] */
+y_offset=(clip_width/2)-(bar_width/2);
+
 module angle(length, width, height, angle)
     {
         cube([length, width, height], center=false);
@@ -44,7 +47,7 @@ module clip()
         difference()
             {
             %angle(clip_length, clip_width, clip_height, clip_angle);
-            translate([-((clip_width/2)-(bar_width/2))*tan(clip_angle/2),(clip_width/2)-(bar_width/2),0]) angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
+            translate([-y_offset*tan(clip_angle/2), y_offset, 0]) angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
             }
     }
 
@@ -65,6 +68,7 @@ bar_insertion_depth=6;
 
 /* [Hidden] */
 error = 0.01; 
+y_offset=(clip_width/2)-(bar_width/2);
 
 module angle(length, width, height, angle)
     {
@@ -77,13 +81,18 @@ module clip()
         difference()
             {
             angle(clip_length, clip_width, clip_height, clip_angle);
-            translate([-((clip_width/2)-(bar_width/2))*tan(clip_angle/2),(clip_width/2)-(bar_width/2),clip_height-bar_insertion_depth+error]) 
+            translate([-y_offset*tan(clip_angle/2), y_offset, clip_height-bar_insertion_depth+error]) 
 		angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
             }
     }
 
 clip();
 ~~~
+
+That is our clip pretty much done! 
+We can export it to STL now, and prepare it for printing with Cura. 
+Or publish it om <http://www.thingiverse.com>.
+The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - makes it easy for anyone to make any clip they would want. 
 
 ## Conditionals
 
@@ -106,6 +115,7 @@ text="Arnsteio";
 
 /* [Hidden] */
 error = 0.01;
+y_offset=(clip_width/2)-(bar_width/2);
 
 module angle(length, width, height, angle)
     {
@@ -118,7 +128,7 @@ module clip()
         difference()
             {
             angle(clip_length, clip_width, clip_height, clip_angle);
-            translate([-((clip_width/2)-(bar_width/2))*tan(clip_angle/2),(clip_width/2)-(bar_width/2),clip_height-bar_insertion_depth+error]) 
+            translate([-y_offset*tan(clip_angle/2), y_offset, clip_height-bar_insertion_depth+error]) 
                 angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
             if ( len(text) > (clip_length/10) ) 
 			{
@@ -130,12 +140,6 @@ module clip()
 
 clip();
 ~~~
-
-
-That is our clip pretty much done! 
-We can export it to STL now, and prepare it for printing with Cura. 
-Or publish it om <http://www.thingiverse.com>.
-The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - makes it easy for anyone to make any clip they would want. 
 
 ### Solid vs hollow
 It is almost always better to design hollow rather than solid.
