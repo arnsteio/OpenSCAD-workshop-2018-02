@@ -1,6 +1,7 @@
 # 3D printing
 
-This section is a demo section where I show export to STL, import to Cura, export to Gcode and start a print. While doing this I discuss the following:
+This section is a demo section where I show export to STL, import to Cura, export to Gcode and start a print. 
+While doing this I discuss the following, usually based on a failed 3D-print I have brough:
 
 1. [Slicing software variables](#slicing-software-variables)
 2. [The environment](#the-environment)
@@ -11,8 +12,9 @@ This section is a demo section where I show export to STL, import to Cura, expor
 
 ### Raft
 
-A raft attaches your print to the build plate and improves stability. 
-When in doubt, use it. 
+A raft attaches your print to the build plate, improves stability and makes sure the bottom layer of your build goes smoothly even if it is irregular in shape. 
+Unless I am absolutely sure I don't need to, I always use it.
+If your model is well grounded to the build plate but has a complex bottom layer you could consider using only a narrow raft.
 
 ### Support
 
@@ -23,9 +25,10 @@ However, when that is inconvenient and you need support use the built-in possibi
 ### Print head size
 
 0.4mm is the standard size of the printer in the library. 
-That's fairly big, i.e. prints fairly fast. 
+That's medium big, so prints OK fast and with a medium resolution. 
 Print head size can matter when you design small details on your models - a 1.0mm thick wall, for example, will print no different than a 0.8mm thick wall.
 A 0.3mm thick wall will not print at all. 
+Keep print head size in mind both when designing thin structures or small details, and when resizing finished models in your slicing software!
 
 ### Layer height
 
@@ -37,7 +40,14 @@ I almost always use 0.15mm layer height, which is quite thick.
 
 Less infill means faster, cheaper prints. 
 You can get by with surprisingly little.
-Even on high-tension parts like slingshots I never use more than 25%.  
+Even on high-tension parts like slingshots I never use more than 25%, and I usually go with 5% for non-high-tension parts.
+
+### Shell
+
+Unless you go with 100% infill the thickness of your shell is important.
+As always, thinner is faster and cheaper, but too thin gets too flimsy.
+I usually use 1mm for high-tension parts (in practice 0.8mm-0.9mm because of print head size and layer height) 
+and whatever Cura suggests for other parts (in theory 0.7mm, which in practice means down to 0.4mm).
 
 ## The environment
 
@@ -50,7 +60,7 @@ Some of the problems include:
 - Manufacturing energy needs are large.
 - We use a lot of material for support and other non-essential parts of builds. This uses excess material and energy. 
 - Our plastic is sometimes sourced from non-renewable sources, and never breaks down but ends up as micro particles in our seas.
-- Home owned printers are utilised little, leading the manufacturing footprint of the machine to be  a large part of the total environmental impact.
+- Home owned printers are utilised little, leading the manufacturing footprint of the machine to be a large part of the total environmental impact.
 - The printing process can make harmful fumes.
 - Filament is not food safe but sometimes used for cutlery. Even using food safe filament the printing process produces layered cracks in which bacteria thrive. 
 
@@ -88,9 +98,11 @@ You often go several rounds with test prints before you are happy with what you 
 Several models either require you to design supports, or make use of in-built support functions in the slicing software. 
 A lack of sufficient supports usually botches the print. 
 
-### Thin walls
+### Thin walls and delicate parts
+Frequently, unanticipated problems stem from too delicate parts not attuned to print head size.
 If your walls are thinner than your print head they will not print. 
 And if they _just_ print they might be too thin for stability.
+Design more durable parts, change print head size or get access to another printer :-)
 
 ### Several simultaneous builds
 Imagine you print two spires side by side.

@@ -133,15 +133,21 @@ clip();
 
 
 That is our clip pretty much done! 
-The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - make it easy to make any clip you would want. 
+We can export it to STL now, and prepare it for printing with Cura. 
+Or publish it om <http://www.thingiverse.com>.
+The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - makes it easy for anyone to make any clip they would want. 
 
 ### Solid vs hollow
-Designed solid, like this, the clip uses 0.74m of filament (build time 43 minutes) if printed with 5% infill and no raft. 
-It uses 0.99m of filament (1 hour 6 minutes build time) if designed hollow and printed with 5% infill, support and a raft. 
+It is almost always better to design hollow rather than solid.
+However, designed solid, like this, the clip uses 0.74m of filament (build time 43 minutes) if printed with 5% infill and no raft. 
+The shape attached to the build plate is not complex so a raft should be unnecessary.
+
+I made a fast hollow version, it uses 0.99m of filament (1 hour 6 minutes build time) if printed with 5% infill, support and a raft. 
 The primary reason besides the raft and support waste is that the shell needs to be almost 1mm to be strong enough, and a more complex shape has more shell.
-However, small things matter. 
-If we dropped the writing we could use thinner walls, and if we in addition could design the clip without end walls, we might come out on top. 
-If we also did the work to design optimal build supports we almost certainly would. 
+But small things matter. 
+I had very thick walls (1.2mm) all around to support the text hollowing, but this might not be necessary, and certainly not on walls without text. 
+If we in addition could design the clip without end walls, we might come out on top. 
+And if we designed optimal build supports we almost certainly would. 
 We shall leave this as an exercise for the interested reader :-)
 
 ## Loops
