@@ -108,6 +108,9 @@ rotate_extrude($fn = resolution)
 ![alt text](bilder/halfKleinBottleByGaelLafond.jpg "Half of the Klein bottle, by Gael Lafond")
 *Half of the Klein bottle, by Gael Lafond*
 
-TODO Add pictures to aid rotation here! 
+![alt text](bilder/points_graph_for_rotation.png "The points we give the bezier function")
+![alt text](bilder/hull_graph.png "The graph we would have gotten via the hull() function on the same points")
+![alt text](bilder/curve_for_rotation.png "Curve delivered via bezier function")
+![alt text](bilder/rotation.png "Rotating this curve through 90 degrees")
 
 [Previous slide](05-trigonometry_conditionals_loops.md)

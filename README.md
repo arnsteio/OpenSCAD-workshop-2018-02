@@ -46,11 +46,7 @@ Need a room close to Bjørnehjørnet (for closeness to the 3D printer), need the
 
 ## My notes:
 TODO:
-- Do conditional text-part as demo
-- Loop-part as a demo
-- Do explicit Thingiverse integration
 - Add picture of what we are making (clip)
-- Add y-alignment as variable
 
 - Remember to resize code text size!
 - Remember to speak what I code!
