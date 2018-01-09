@@ -30,7 +30,7 @@ Learning outcomes:
 Target audience: 
 Attendees should have experience with writing formatted text (html, XML, LaTeX or even the command line). 
 Programming experience is helpful but not necessary.  
-We will do some maths (rotational objects and trigonometry), having high school math (1. klasse videregående) will help understanding.
+We will do some maths (rotational objects and trigonometry), having high school maths (1. klasse videregående) is not necessary but will help understanding.
 
 Number of attendees: 30
 
