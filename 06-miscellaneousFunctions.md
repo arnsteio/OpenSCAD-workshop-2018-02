@@ -40,7 +40,10 @@ hull() {
      cube(0.01);
 }
 ~~~
-
+Our ["Gothic Roof"](https://www.thingiverse.com/thing:2693666) is made this way - it has a `hull()` around a square at the base, 
+and the intersection between two squares at 45 degree angle to each other as the mid-roof "break". 
+And another `hull()`around this mid-roof shape and a long, narrow square at the top of the model. 
+The whole, fully parametric and decorated roof design was made in 90 minutes.  
 
 ## Fast modelling of rotational objects
 ~~~
@@ -104,5 +107,7 @@ rotate_extrude($fn = resolution)
 ~~~
 ![alt text](bilder/halfKleinBottleByGaelLafond.jpg "Half of the Klein bottle, by Gael Lafond")
 *Half of the Klein bottle, by Gael Lafond*
+
+TODO Add pictures to aid rotation here! 
 
 [Previous slide](05-trigonometry_conditionals_loops.md)
