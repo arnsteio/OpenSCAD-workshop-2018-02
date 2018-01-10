@@ -1,23 +1,8 @@
----
-title: Basic OpenSCAD
-teaching: 30
-exercises: 10
-questions:
-- "What do you need to know to design things in OpenSCAD?"
-objectives:
-- Be able to use shapes (cube, sphere, cylinder)
-- Be able to use CSG operations (union, difference, intersection)
-- Be able to use transforms (translate, scale, rotate)
-keypoints:
-- ""
----
-
 # Basic OpenSCAD operations
 1. [Shapes](#shapes)
 2. [Constructive Solid Geometry operations](#constructive-solid-geometry-operations)
 1. [Transformationss](#transformations)
 1. [Documentation and learning resources](#documentation-and-learning-resources)
-
 
 
 OpenSCAD is a very powerful language and we cannot cover everything. 
@@ -32,7 +17,9 @@ Open OpenSCAD, and try this:
 // Test cube
 cube([50, 10, 5], center=true);
 ~~~
-Press the F5 key to render your code. 
+Press the F5 key to preview your code, or F6 to render it.
+Previewing is very fast, but only after rendering will we be able to export to STL. 
+Sometimes previewing gives funny results, if so just render instead. 
 Everything after "//" is a comment - it is just useful for us humans, it isn't part of the shape.
 "cube" is self explanatury, and the numbers give the lengths - X, Y and Z - of the described shape.
 Anything within square brackets [] is a vector, and this vector describes the extent of the cube.  
@@ -56,6 +43,8 @@ sphere(r=20);
 ~~~
 Finding bugs in our code when shapes are inside other shapes can be difficult, putting "%" in front of a shape makes it transparent.
 Try doing that in front of the line with the sphere.
+You can also use "#" to make shapes transparent and red.
+These will only work when previewing (F5), not when rendering (F6).
 
 However, we need to be able to combine shapes to make interesting shapes.
 
@@ -87,6 +76,9 @@ Operators like 'union' use braces '{}'  when their scope covers more than one ac
 Try changing union() to difference() and intersection()!
 
 ### Try it out
+![alt text](bilder/sphere_sides.png "Only the sides of a sphere")
+*Only the sides of a sphere*
+
 > Excercise: How can you make a shape that only has the "sides" of the sphere - the sphere minus the cube?
 >>~~~
 >>difference() {

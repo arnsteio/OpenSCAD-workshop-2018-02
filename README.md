@@ -39,5 +39,13 @@ Number of attendees: 20 unless I get helpers, 40 if I do.  
 
 Need a room close to Bjørnehjørnet (for closeness to the 3D printer), need the 3D printer itself booked for the day in the library system, wifi, power, a screen to present on.
 
+Time plan:
+- 09:00 Intro + print
+- 09:45 Basic OpenSCAD
+- 10:15 Modules
+- 10:30 Trig
+- 11:00 Misc
+- 11:45 Print
+- 12:00 Wrap-up
 
 [Next slide](01-intro.md)
