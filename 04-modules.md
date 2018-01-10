@@ -100,7 +100,8 @@ module clip()
 clip();
 ~~~
 
-That's a great beginning, almost finished in fact! Let's now move the cutout to the correct position:
+That's a great beginning, almost finished in fact! Let's now move the cutout to the correct position. 
+We'll put the y offset info a new variable for readability: 
 
 ~~~
 /* [Global] */
@@ -111,6 +112,9 @@ clip_angle=60;
 
 bar_width=4;
 bar_insertion_depth=6;
+
+/* [Hidden] */
+y_offset=(clip_width/2)-(bar_width/2);
 
 module angle(length, width, height, angle)
     {
@@ -123,7 +127,7 @@ module clip()
         difference()
             {
             %angle(clip_length, clip_width, clip_height, clip_angle);
-            translate([0,(clip_width/2)-(bar_width/2),0]) angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
+            translate([0, y_offset, 0]) angle(clip_length, bar_width, bar_insertion_depth, clip_angle);
             }
     }
         

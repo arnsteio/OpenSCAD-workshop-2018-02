@@ -40,7 +40,10 @@ hull() {
      cube(0.01);
 }
 ~~~
-
+Our ["Gothic Roof"](https://www.thingiverse.com/thing:2693666) is made this way - it has a `hull()` around a square at the base, 
+and the intersection between two squares at 45 degree angle to each other as the mid-roof "break". 
+And another `hull()`around this mid-roof shape and a long, narrow square at the top of the model. 
+The whole, fully parametric and decorated roof design was made in 90 minutes.  
 
 ## Fast modelling of rotational objects
 ~~~
@@ -88,7 +91,22 @@ import("myfile.stl")
 ## Including libraries
 If you consider e.g. the customizable Klein bottle at <https://www.thingiverse.com/thing:2170953>, it is made possible by heavy use of bezier curves. 
 Instead of reimplementing them from scratch the author imports a bezier library he has published previously.
+![alt text](bilder/halfKleinBottleByGaelLafond.jpg "Half of the Klein bottle, by Gael Lafond")
+*Half of the Klein bottle, by Gael Lafond*
+
 We can use his library [bezier.scad](bezier.scad) to make e.g. the beginnings of a minaret:
+
+![alt text](bilder/points_graph_for_rotation.png "The points we give the bezier function")
+*The points we give the bezier function*
+
+![alt text](bilder/hull_graph.png "The graph we would have gotten via the hull() function on the same points")
+*The graph we would have gotten via the hull() function on the same points*
+
+![alt text](bilder/curve_for_rotation.png "Curve delivered via bezier function")
+*Curve delivered via bezier function*
+
+![alt text](bilder/rotation.png "Rotating this curve through 90 degrees")
+*Rotating this curve through 90 degrees*
 ~~~
 // Requires the bezier library by Gael Lafond:
 //   http://www.thingiverse.com/thing:2170645
@@ -102,7 +120,6 @@ rotate_extrude($fn = resolution)
                 [[30, 0],[50, 30],[0, 30],[0, 60]]
         ], resolution);
 ~~~
-![alt text](bilder/halfKleinBottleByGaelLafond.jpg "Half of the Klein bottle, by Gael Lafond")
-*Half of the Klein bottle, by Gael Lafond*
+
 
 [Previous slide](05-trigonometry_conditionals_loops.md)
