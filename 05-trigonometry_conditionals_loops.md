@@ -93,6 +93,7 @@ That is our clip pretty much done!
 We can export it to STL now, and prepare it for printing with Cura. 
 Or publish it om <http://www.thingiverse.com>.
 The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - makes it easy for anyone to make any clip they would want. 
+Documentation around the Thingiverse "Customizer" API is at <http://customizer.makerbot.com/docs>.
 
 ## Conditionals
 
