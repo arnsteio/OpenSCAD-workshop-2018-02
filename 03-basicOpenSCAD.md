@@ -76,9 +76,9 @@ Operators like 'union' use braces '{}'  when their scope covers more than one ac
 Try changing union() to difference() and intersection()!
 
 ### Try it out
-![alt text](bilder/sphere_sides.png "Only the sides of a sphere")
-*Only the sides of a sphere*
-
+> ![alt text](bilder/sphere_sides.png "Only the sides of a sphere")
+> *Only the sides of a sphere*
+>
 > Excercise: How can you make a shape that only has the "sides" of the sphere - the sphere minus the cube?
 >>~~~
 >>difference() {
