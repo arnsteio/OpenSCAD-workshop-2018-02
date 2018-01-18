@@ -64,6 +64,9 @@ This allows grouping portions of script for easy reuse with different values.
 Even when that isn't easy you can often borrow bits of code for use in other places. 
 The ["Japanese hirajiro castle"](https://www.thingiverse.com/thing:16862) reuses code extensively - it appears to be a complex model, but is actually fairly simple. 
 
+![alt text](bilder/3d-space-wrench.jpg "Wrench 3d printed on the International Space Station")
+*Wrench 3d printed on the International Space Station*
+
 ## Tools of the trade
 1. Design
   * Ruler, to measure the real world
