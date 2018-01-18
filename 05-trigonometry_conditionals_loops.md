@@ -102,6 +102,7 @@ This is often text, images or vector drawings.
 *QR code to this web page*
 ![alt text](bilder/3d_qrcode.png "3d-extruded QR code to this web page")
 *3d-extruded QR code to this web page*
+
 I sometimes like to put text on my things (emboss via `union()` or etch via `difference()`), let's do that here too.
 
 Text length is dependent on text size, fonts and simply what letters you choose so I don't like to make hard requirements around it. 
