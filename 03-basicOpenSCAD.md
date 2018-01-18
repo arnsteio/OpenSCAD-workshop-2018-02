@@ -123,7 +123,7 @@ I have occasionally gotten important insights looking at other people's code, e.
 > Excercise: How can you make a flattened sphere with a hole in the middle?
 >> Solution: Several possibilities, one is:
 >>~~~
->>$fn=100;
+>>$fn=50;
 >>difference() {
 >>   scale ([1, 1, 0.5]) sphere(10);
 >>   cylinder(h=10, r=5, center=true);

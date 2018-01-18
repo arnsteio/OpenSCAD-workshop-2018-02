@@ -65,7 +65,7 @@ Even when that isn't easy you can often borrow bits of code for use in other pla
 The ["Japanese hirajiro castle"](https://www.thingiverse.com/thing:16862) reuses code extensively - it appears to be a complex model, but is actually fairly simple. 
 
 ![alt text](bilder/3d-space-wrench.jpg "Wrench 3d printed on the International Space Station")
-*Wrench 3d printed on the International Space Station*
+*Barry Wilmore shows off a ratchet wrench made with a 3-D printer on the International Space Station. Credits: NASA*
 
 ## Tools of the trade
 1. Design

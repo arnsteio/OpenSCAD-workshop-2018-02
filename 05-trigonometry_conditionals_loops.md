@@ -96,8 +96,13 @@ The variables at the top of the script - which plug directly into the API of Thi
 Documentation around the Thingiverse "Customizer" API is at <http://customizer.makerbot.com/docs>.
 
 ## Conditionals
-
-I sometimes like to mark my things, let's do that here too.
+In addition to doing CSV operations, OpenSCAD can extrude 3d objects from 2d data. 
+This is often text, images or vector drawings. 
+![alt text](bilder/qrcode.png "QR code to this web page")
+*QR code to this web page*
+![alt text](bilder/3d_qrcode.png "3d-extruded QR code to this web page")
+*3d-extruded QR code to this web page*
+I sometimes like to put text on my things (emboss via `union()` or etch via `difference()`), let's do that here too.
 
 Text length is dependent on text size, fonts and simply what letters you choose so I don't like to make hard requirements around it. 
 However, a message when text might be too long could be nice.  
