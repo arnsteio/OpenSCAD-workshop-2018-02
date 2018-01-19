@@ -1,6 +1,6 @@
 Trigonometry, conditionals and loops
 1. [Trigonometry](#trigonometry)
-2. [Conditionals, and 2D extrusion](#conditionals,-and-2d-extrusion)
+2. [Conditionals, and 2D extrusion](#conditionals-and-2d-extrusion)
 3. [Loops](#loops)
 
 ## Trigonometry
