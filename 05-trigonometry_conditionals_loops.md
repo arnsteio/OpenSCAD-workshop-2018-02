@@ -95,7 +95,7 @@ Or publish it on <http://www.thingiverse.com>.
 The variables at the top of the script - which plug directly into the API of Thingiverse's web setup - makes it easy for anyone to make any clip they would want. 
 Documentation around the Thingiverse "Customizer" API is at <http://customizer.makerbot.com/docs>.
 
-![alt text](bilder/magicClip.png "A totally different clip made with the same code")
+![alt text](bilder/magicClip.jpg "A totally different clip made with the same code")
 *A totally different clip made with the same code*
 
 ## Conditionals, and 2D extrusion

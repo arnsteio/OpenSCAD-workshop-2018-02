@@ -3,10 +3,10 @@
 One of the clips keeping my hamster cage together has broken. If my hamster escapes, the neighbour's cat will eat him. 
 Let's build a pet cage clip!
 
-![alt text](bilder/birdCage.png "A pet cage corner with clip")
+![alt text](bilder/birdCage.jpg "A pet cage corner with clip")
 *A pet cage corner with clip*
 
-![alt text](bilder/Clippy.png "The clip we wish to make")
+![alt text](bilder/Clippy.jpg "The clip we wish to make")
 *The clip we wish to make*
 
 ~~~
@@ -33,7 +33,7 @@ Things are going swell, however fate - in the guise of your friend Kari - interv
 >
 > OK, I'll bring it to Uni on friday :-)
 
-![alt text](bilder/Budgie.png "The clip Kari needs")
+![alt text](bilder/Budgie.jpg "The clip Kari needs")
 *The clip Kari needs*
 
 So we need to make a more generic solution. 
