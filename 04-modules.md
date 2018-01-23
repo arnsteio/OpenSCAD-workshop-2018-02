@@ -3,6 +3,12 @@
 One of the clips keeping my hamster cage together has broken. If my hamster escapes, the neighbour's cat will eat him. 
 Let's build a pet cage clip!
 
+![alt text](bilder/birdCage.png "A pet cage corner with clip")
+*A pet cage corner with clip*
+
+![alt text](bilder/Clippy.png "The clip we wish to make")
+*The clip we wish to make*
+
 ~~~
 cube([60, 10, 15], center=false);
 cube([10, 60, 15], center=false);
@@ -26,6 +32,9 @@ Things are going swell, however fate - in the guise of your friend Kari - interv
 >*- Each segment is 5cm long, 1cm wide and 15mm tall. The slot for the bars is 4mm wide and 6mm deep.*
 >
 > OK, I'll bring it to Uni on friday :-)
+
+![alt text](bilder/Budgie.png "The clip Kari needs")
+*The clip Kari needs*
 
 So we need to make a more generic solution. 
 Let's start by defining what we know:
