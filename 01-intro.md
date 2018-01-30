@@ -69,7 +69,7 @@ The ["Japanese hirajiro castle"](https://www.thingiverse.com/thing:16862) reuses
 
 ![alt text](bilder/3DCarlson.jpg "Jean Rabault (t.v.), Andreas Carlson og Richard Andre Fauli inspiserer 3D-printede liksomfrø")
 *Jean Rabault (t.v.), Andreas Carlson og Richard Andre Fauli inspiserer 3D-printede liksomfrø.*
-Fotograf: Bjarne Røsjø. [Original artikkel her](https://titan.uio.no/node/2500), [Lisens: CC BY 4.0](a href="http://creativecommons.org/licenses/by/4.0/deed.no)
+Fotograf: Bjarne Røsjø. [Original artikkel her](https://titan.uio.no/node/2500), [Lisens: CC by 4.0](http://creativecommons.org/licenses/by/4.0/deed.no)
 
 ## Tools of the trade
 1. Design
