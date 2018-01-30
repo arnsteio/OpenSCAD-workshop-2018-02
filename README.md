@@ -46,8 +46,6 @@ Need a room close to Bjørnehjørnet (for closeness to the 3D printer), need the
 
 ## My notes:
 TODO:
-- Add picture of what we are making (clip)
-
 - Remember to resize code text size!
 - Remember to speak what I code!
 
@@ -59,5 +57,7 @@ Time plan:
 - 11:00 Misc
 - 11:45 Print
 - 12:00 Wrap-up
+
+URL to presentation website: <https://arnsteio.github.io/OpenSCAD-workshop-2018-02/>
 
 [Next slide](01-intro.md)
