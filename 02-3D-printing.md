@@ -85,6 +85,9 @@ This section is specific to [the Ultimaker 2+ printer](https://ultimaker.com/en/
 You start the filament changing process by selecting it in the menu. 
 It is very easy, but also documented on
 <https://ultimaker.com/en/resources/21476-how-to-insert-filament>
+It is important that the new filament is undamaged!
+Damaged filament can break off and get stuck in the feed tube. 
+This is easy but time comsuming to fix. 
 
 ### Printer problems
 <https://ultimaker.com/en/resources/18767-unboxing> has a "troubleshooter" section. 
