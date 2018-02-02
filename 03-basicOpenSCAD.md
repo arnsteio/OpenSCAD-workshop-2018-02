@@ -21,7 +21,7 @@ Press the F5 key to preview your code, or F6 to render it.
 Previewing is very fast, but only after rendering will we be able to export to STL. 
 Sometimes previewing gives funny results, if so just render instead. 
 Everything after "//" is a comment - it is just useful for us humans, it isn't part of the shape.
-"cube" is self explanatury, and the numbers give the lengths - X, Y and Z - of the described shape.
+"cube" is self explanatury, and the numbers give the lengths in millimetres - X, Y and Z - of the described shape.
 Anything within square brackets [] is a vector, and this vector describes the extent of the cube.  
 "center" means the figure will be centered in the origin of the coordinate system as opposed to in the first quadrant (try both if you want).
 
