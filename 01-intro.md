@@ -67,9 +67,9 @@ The ["Japanese hirajiro castle"](https://www.thingiverse.com/thing:16862) reuses
 ![alt text](bilder/3d-space-wrench.jpg "Wrench 3d printed on the International Space Station")
 *Barry Wilmore shows off a ratchet wrench made with a 3-D printer on the International Space Station. Credits: NASA*
 
-![alt text](bilder/3DCarlson.jpg "Jean Rabault (t.v.), Andreas Carlson og Richard Andre Fauli inspiserer 3D-printede liksomfrø")
-*Jean Rabault (t.v.), Andreas Carlson og Richard Andre Fauli inspiserer 3D-printede liksomfrø.*
-Fotograf: Bjarne Røsjø. [Original artikkel her](https://titan.uio.no/node/2500), [Lisens: CC by 4.0](http://creativecommons.org/licenses/by/4.0/deed.no)
+![alt text](bilder/3DCarlson.jpg "Jean Rabault (t.v.), Andreas Carlson og Richard Andre Fauli are inspecting 3D-printed pretend seeds")
+*Jean Rabault (t.v.), Andreas Carlson og Richard Andre Fauli are inspecting 3D-printed pretend seeds. Carlson uses 3D printing as part of his mechanics course at UiO.*
+Photographer: Bjarne Røsjø. [Original article here](https://titan.uio.no/node/2500), [License: CC by 4.0](http://creativecommons.org/licenses/by/4.0/deed.no)
 
 ## Tools of the trade
 1. Design
