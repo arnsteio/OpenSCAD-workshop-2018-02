@@ -94,7 +94,7 @@ Instead of reimplementing them from scratch the author imports a bezier library 
 ![alt text](bilder/halfKleinBottleByGaelLafond.jpg "Half of the Klein bottle, by Gael Lafond")
 *Half of the Klein bottle, by Gael Lafond*
 
-We can use his library [bezier.scad](bezier.scad) to make e.g. the beginnings of a minaret:
+We can use his library [bezier.scad](example/bezier.scad) to make e.g. the beginnings of a minaret:
 
 ![alt text](bilder/points_graph_for_rotation.png "The points we give the bezier function")
 *The points we give the bezier function*
